@@ -1,7 +1,7 @@
 # ORB-SLAM2
 **ORB-SLAM2 Authors:** [Raul Mur-Artal](http://webdiis.unizar.es/~raulmur/), [Juan D. Tardos](http://webdiis.unizar.es/~jdtardos/), [J. M. M. Montiel](http://webdiis.unizar.es/~josemari/) and [Dorian Galvez-Lopez](http://doriangalvez.com/) ([DBoW2](https://github.com/dorian3d/DBoW2)).
-The original implementation can be found [here](https://github.com/raulmur/ORB_SLAM2.git).
-For the original README, please see README_original.md in this repo. For the original orb_slam2_ros, please see https://github.com/appliedAI-Initiative/orb_slam_2_ros.
+The original implementation can be found [here](https://github.com/raulmur/ORB_SLAM2.git). <br />
+For the original README, please see README_original.md in this repo. For the original orb_slam2_ros, please see this [repo](https://github.com/appliedAI-Initiative/orb_slam_2_ros).
 For the image publisher, please refer to this [repo](https://github.com/amc-nu/RosImageFolderPublisher).
 For the `PoseStamped.msg` subscriber, please refer to this [repo](https://gist.github.com/wjwwood/b67d07a171f89faa8939).
 
