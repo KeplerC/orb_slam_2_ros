@@ -57,7 +57,7 @@ cd src
 rosrun image_folder_publisher image_folder_publisher.py _image_folder:=./../../rgbd_dataset_freiburg1_xyz/rgb _topic_name=/camera/image_raw
 ```
 
-## Expected prints on terminal
+## Expected prints on terminals
 ### Terminal A
 ```... logging to /home/ubuntu/.ros/log/31af6a50-ad06-11eb-9342-4fd7652998b2/roslaunch-ip-172-31-0-70-1949.log
 Checking log directory for disk usage. This may take a while.
@@ -84,8 +84,9 @@ ROS_MASTER_URI=http://ip-172-31-0-70:11311/
 setting /run_id to 31af6a50-ad06-11eb-9342-4fd7652998b2
 process[rosout-1]: started with pid [1984]
 started core service [/rosout]```
-
+```
 ### Terminal B
+```
 ... logging to /root/.ros/log/31af6a50-ad06-11eb-9342-4fd7652998b2/roslaunch-ip-172-31-0-70-52.log
 Checking log directory for disk usage. This may take a while.
 Press Ctrl-C to interrupt
