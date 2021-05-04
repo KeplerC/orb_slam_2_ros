@@ -1,205 +1,246 @@
 # ORB-SLAM2
 **ORB-SLAM2 Authors:** [Raul Mur-Artal](http://webdiis.unizar.es/~raulmur/), [Juan D. Tardos](http://webdiis.unizar.es/~jdtardos/), [J. M. M. Montiel](http://webdiis.unizar.es/~josemari/) and [Dorian Galvez-Lopez](http://doriangalvez.com/) ([DBoW2](https://github.com/dorian3d/DBoW2)).
 The original implementation can be found [here](https://github.com/raulmur/ORB_SLAM2.git).
+For the original README, please see README_original.md in this repo. For the original orb_slam2_ros, please see https://github.com/appliedAI-Initiative/orb_slam_2_ros.
+For the image publisher, please refer to this [repo](https://github.com/amc-nu/RosImageFolderPublisher).
+For the `PoseStamped.msg` subscriber, please refer to this [repo](https://gist.github.com/wjwwood/b67d07a171f89faa8939).
 
-# ORB-SLAM2 ROS node
-This is the ROS implementation of the ORB-SLAM2 real-time SLAM library for **Monocular**, **Stereo** and **RGB-D** cameras that computes the camera trajectory and a sparse 3D reconstruction (in the stereo and RGB-D case with true scale). It is able to detect loops and relocalize the camera in real time. This implementation removes the Pangolin dependency, and the original viewer. All data I/O is handled via ROS topics. For visualization you can use RViz. This repository is maintained by [Lennart Haller](http://lennarthaller.de) on behalf of [appliedAI](http://appliedai.de).
-## Features
-- Full ROS compatibility
-- Supports a lot of cameras out of the box, such as the Intel RealSense family. See the run section for a list
-- Data I/O via ROS topics
-- Parameters can be set with the rqt_reconfigure gui during runtime
-- Very quick startup through considerably sped up vocab file loading
-- Full Map save and load functionality based on [this PR](https://github.com/raulmur/ORB_SLAM2/pull/381).
-- Loading of all parameters via launch file
-- Supports loading cam parameters from cam_info topic
+# Instructions for orb_slam2_ros in FogROS
 
-### Related Publications:
-[Monocular] Raúl Mur-Artal, J. M. M. Montiel and Juan D. Tardós. **ORB-SLAM: A Versatile and Accurate Monocular SLAM System**. *IEEE Transactions on Robotics,* vol. 31, no. 5, pp. 1147-1163, 2015. (**2015 IEEE Transactions on Robotics Best Paper Award**). **[PDF](http://webdiis.unizar.es/~raulmur/MurMontielTardosTRO15.pdf)**.
-
-[Stereo and RGB-D] Raúl Mur-Artal and Juan D. Tardós. **ORB-SLAM2: an Open-Source SLAM System for Monocular, Stereo and RGB-D Cameras**. *IEEE Transactions on Robotics,* vol. 33, no. 5, pp. 1255-1262, 2017. **[PDF](https://128.84.21.199/pdf/1610.06475.pdf)**.
-
-[DBoW2 Place Recognizer] Dorian Gálvez-López and Juan D. Tardós. **Bags of Binary Words for Fast Place Recognition in Image Sequences**. *IEEE Transactions on Robotics,* vol. 28, no. 5, pp.  1188-1197, 2012. **[PDF](http://doriangalvez.com/php/dl.php?dlp=GalvezTRO12.pdf)**
-
-# 1. License
-ORB-SLAM2 is released under a [GPLv3 license](https://github.com/aaide/ORB_SLAM2_ROS/blob/master/License-gpl.txt). For a list of all code/library dependencies (and associated licenses), please see [Dependencies.md](https://github.com/aaide/ORB_SLAM2_ROS/blob/master/Dependencies.md).
-
-For a closed-source version of ORB-SLAM2 for commercial purposes, please contact the authors: orbslam (at) unizar (dot) es.
-
-If you use ORB-SLAM2 (Monocular) in an academic work, please cite:
-
-    @article{murTRO2015,
-      title={{ORB-SLAM}: a Versatile and Accurate Monocular {SLAM} System},
-      author={Mur-Artal, Ra\'ul, Montiel, J. M. M. and Tard\'os, Juan D.},
-      journal={IEEE Transactions on Robotics},
-      volume={31},
-      number={5},
-      pages={1147--1163},
-      doi = {10.1109/TRO.2015.2463671},
-      year={2015}
-     }
-
-if you use ORB-SLAM2 (Stereo or RGB-D) in an academic work, please cite:
-
-    @article{murORB2,
-      title={{ORB-SLAM2}: an Open-Source {SLAM} System for Monocular, Stereo and {RGB-D} Cameras},
-      author={Mur-Artal, Ra\'ul and Tard\'os, Juan D.},
-      journal={IEEE Transactions on Robotics},
-      volume={33},
-      number={5},
-      pages={1255--1262},
-      doi = {10.1109/TRO.2017.2705103},
-      year={2017}
-     }
-
-# 2. Building orb_slam2_ros
-We have tested the library in **Ubuntu 16.04** with **ROS Kinetic** and **Ubuntu 18.04** with **ROS Melodic**. A powerful computer (e.g. i7) will ensure real-time performance and provide more stable and accurate results.
-A C++11 compiler is needed.
-
-## Getting the code
-Clone the repository into your catkin workspace:
+## Docker image
+Pull the docker image on an EC2 machine, 
 ```
-git clone https://github.com/appliedAI-Initiative/orb_slam_2_ros.git
+docker pull debbieliang/ros_open:posestamped 
+```
+Run on four separate terminals
+```
+sudo docker run --network host --rm -it debbieliang/ros_open:posestamped
+``` 
+
+## Terminal A
+```
+roscore
 ```
 
-## ROS
-This ROS node requires catkin_make_isolated or catkin build to build. This package depends on a number of other ROS packages which ship with the default installation of ROS.
-If they are not installed use [rosdep](http://wiki.ros.org/rosdep) to install them. In your catkin folder run
+## Terminal B
+Subscribe `Image.msg`, run the `ORB_SLAM2` algorithm, and publish `PoseStamped.msg`.
+Run 
 ```
-sudo rosdep init
-rosdep update
-rosdep install --from-paths src --ignore-src -r -y
+cd /orb_slam_2_ros/build
+source devel/setup.bash 
+cd .. 
+roslaunch orb_slam2_ros orb_slam2_r200_mono.launch 
 ```
-to install all dependencies for all packages. If you already initialized rosdep you get a warning which you can ignore.
+If you changed any code, run 
 
-## Eigen3
-Required by g2o. Download and install instructions can be found [here](http://eigen.tuxfamily.org).
-Otherwise Eigen can be installed as a binary with:
 ```
-sudo apt install libeigen3-dev
+cd /orb_slam_2_ros/build
+cmake .. -DROS_BUILD_TYPE=Release
+make -j
+source devel/setup.bash 
+cd .. 
+roslaunch orb_slam2_ros orb_slam2_r200_mono.launch 
 ```
-**Required at least Eigen 3.1.0**.
 
-## Building
-To build the node run
+##Terminal C 
+Subscribe `PoseStamped.msg` from topic `/orb_slam2_mono/pose`
 ```
-catkin build
+./orb_slam_2_ros/build/devel/lib/orb_slam2_ros/orb_slam2_ros_pss
 ```
-in your catkin folder.
 
-# 3. Configuration
-## Vocab file
-To run the algorithm expects both a vocabulary file (see the paper) which ships with this repository.
-
-# Config
-The config files for camera calibration and tracking hyper paramters from the original implementation are replaced with ros paramters which get set from a launch file.
-
-## ROS parameters, topics and services
-### Parameters
-There are three types of parameters right now: static- and dynamic ros parameters and camera settings.
-The static parameters are send to the ROS parameter server at startup and are not supposed to change. They are set in the launch files which are located at ros/launch. The parameters are:
-
-- **load_map**: Bool. If set to true, the node will try to load the map provided with map_file at startup.
-- **map_file**: String. The name of the file the map is loaded from.
-- **voc_file**: String. The location of config vocanulary file mentioned above.
-- **publish_pointcloud**: Bool. If the pointcloud containing all key points (the map) should be published.
-- **publish_pose**: Bool. If a PoseStamped message should be published. Even if this is false the tf will still be published.
-- **pointcloud_frame_id**: String. The Frame id of the Pointcloud/map.
-- **camera_frame_id**: String. The Frame id of the camera position.
-- **target_frame_id**: String. Map transform and pose estimate will be provided in this frame id if set.
-- **load_calibration_from_cam**: Bool. If true, camera calibration is read from a `camera_info` topic. Otherwise it is read from launch file params.
-
-Dynamic parameters can be changed at runtime. Either by updating them directly via the command line or by using [rqt_reconfigure](http://wiki.ros.org/rqt_reconfigure) which is the recommended way.
-The parameters are:
-
-- **localize_only**: Bool. Toggle from/to only localization. The SLAM will then no longer add no new points to the map.
-- **reset_map**: Bool. Set to true to erase the map and start new. After reset the parameter will automatically update back to false.
-- **min_num_kf_in_map**: Int. Number of key frames a map has to have to not get reset after tracking is lost.
-- **min_observations_for_ros_map**: Int. Number of minimal observations a key point must have to be published in the point cloud. This doesn't influence the behavior of the SLAM itself at all.
-
-Finally, the intrinsic camera calibration parameters along with some hyperparameters can be found in the specific yaml files in orb_slam2/config.
-
-### Published topics
-The following topics are being published and subscribed to by the nodes:
-- All nodes publish (given the settings) a **PointCloud2** containing all key points of the map.
-- Also all nodes publish (given the settings) a **PoseStamped** with the current pose of the camera frame, or the target frame if `target_frame_id` is set.
-- Live **image** from the camera containing the currently found key points and a status text.
-- A **tf** from the pointcloud frame id to the camera frame id (the position), or the target frame if `target_frame_id` is set.
-
-### Subscribed topics
-- The mono node subscribes to:
-    - **/camera/image_raw** for the input image
-    - **/camera/camera_info** for camera calibration (if `load_calibration_from_cam`) is `true`
-
-- The RGBD node subscribes to:
-    - **/camera/rgb/image_raw** for the RGB image
-    - **/camera/depth_registered/image_raw** for the depth information
-    - **/camera/rgb/camera_info** for camera calibration (if `load_calibration_from_cam`) is `true`
-
-- The stereo node subscribes to:
-    - **image_left/image_color_rect** and
-    - **image_right/image_color_rect** for corresponding images
-    - **image_left/camera_info** for camera calibration (if `load_calibration_from_cam`) is `true`
-
-# 4. Services
-All nodes offer the possibility to save the map via the service node_type/save_map.
-So the save_map services are:
-- **/orb_slam2_rgbd/save_map**
-- **/orb_slam2_mono/save_map**
-- **/orb_slam2_stereo/save_map**
-
-The save_map service expects the name of the file the map should be saved at as input.
-
-At the moment, while the save to file takes place, the SLAM is inactive.
-
-# 5. Run
-After sourcing your setup bash using
+## Terminal D 
+Publish the png images in `/rgbd_dataset_freiburg1_xyz/rgb` through topic `/camera/rgb/image_raw`
 ```
+cd /RosImageFolderPublisher
 source devel/setup.bash
+cd src
+rosrun image_folder_publisher image_folder_publisher.py _image_folder:=./../../rgbd_dataset_freiburg1_xyz/rgb _topic_name=/camera/image_raw
 ```
-## Suported cameras
-| Camera               | Mono                                                           | Stereo                                                           | RGBD                                                       |
-|----------------------|----------------------------------------------------------------|------------------------------------------------------------------|------------------------------------------------------------|
-| Intel RealSense r200 | ``` roslaunch orb_slam2_ros orb_slam2_r200_mono.launch ```     | ``` roslaunch orb_slam2_ros orb_slam2_r200_stereo.launch ```     | ``` roslaunch orb_slam2_ros orb_slam2_r200_rgbd.launch ``` |
-| Intel RealSense d435 | ``` roslaunch orb_slam2_ros orb_slam2_d435_mono.launch ```     | -                                                                | ``` roslaunch orb_slam2_ros orb_slam2_d435_rgbd.launch ``` |
-| Mynteye S            | ```roslaunch orb_slam2_ros orb_slam2_mynteye_s_mono.launch ``` | ```roslaunch orb_slam2_ros orb_slam2_mynteye_s_stereo.launch ``` | -                                                          | 
-| Stereolabs ZED 2     | -                                                              | ```roslaunch orb_slam2_ros orb_slam2_zed2_stereo.launch ```      | -                                                          |                     |                                                            |                                                              |                                                            |
 
-Use the command from the corresponding cell for your camera to launch orb_slam2_ros with the right parameters for your setup.
+## Expected prints on terminal
+### Terminal A
+```... logging to /home/ubuntu/.ros/log/31af6a50-ad06-11eb-9342-4fd7652998b2/roslaunch-ip-172-31-0-70-1949.log
+Checking log directory for disk usage. This may take a while.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
 
-# 6. Docker
-An easy way is to use orb_slam2_ros with Docker. This repository ships with a Dockerfile based on ROS kinetic.
-The container includes orb_slam2_ros as well as the Intel RealSense package for quick testing and data collection.
+started roslaunch server http://ip-172-31-0-70:44875/
+ros_comm version 1.15.9
 
-# 7. FAQ
-Here are some answers to frequently asked questions.
-### How to save the map
-To save the map with a simple command line command run one the commands (matching to your node running):
-```
-rosservice call /orb_slam2_rgbd/save_map map.bin
-rosservice call /orb_slam2_stereo/save_map map.bin
-rosservice call /orb_slam2_mono/save_map map.bin
-```
-You can replace "map.bin" with any file name you want.
-The file will be saved at ROS_HOME which is by default ~/.ros
 
-**Note** that you need to source your catkin workspace in your terminal in order for the services to become available.
+SUMMARY
+========
 
-### Using a new / different camera
-You can use this SLAM with almost any mono, stereo or RGBD cam you want.
-In order to use this with a different camera you need to supply a set of paramters to the algorithm. They are loaded from a launch file from the ros/launch folder.
-1) You need the **camera intrinsics and some configurations**. [Here](https://docs.opencv.org/3.1.0/dc/dbb/tutorial_py_calibration.html) you can read about what the camera calibration parameters mean. Use [this](http://wiki.ros.org/camera_calibration) ros node to obtain them for your camera. If you use a stereo or RGBD cam in addition to the calibration and resolution you also need to adjust three other parameters: Camera.bf, ThDepth and DepthMapFactor.
-2) **The ros launch file** which is at ros/launch needs to have the correct topics to subscribe to from the new camera.
-**NOTE** If your camera supports this, orb_slam_2_ros can subscribe to the camera_info topic and read the camera calibration parameters from there.
+PARAMETERS
+ * /rosdistro: noetic
+ * /rosversion: 1.15.9
 
-### Problem running the realsense node
-The node for the RealSense fails to launch when running
+NODES
+
+auto-starting new master
+process[master]: started with pid [1974]
+ROS_MASTER_URI=http://ip-172-31-0-70:11311/
+
+setting /run_id to 31af6a50-ad06-11eb-9342-4fd7652998b2
+process[rosout-1]: started with pid [1984]
+started core service [/rosout]```
+
+### Terminal B
+... logging to /root/.ros/log/31af6a50-ad06-11eb-9342-4fd7652998b2/roslaunch-ip-172-31-0-70-52.log
+Checking log directory for disk usage. This may take a while.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+
+started roslaunch server http://ip-172-31-0-70:40097/
+
+SUMMARY
+========
+
+PARAMETERS
+ * /orb_slam2_mono/ORBextractor/iniThFAST: 20
+ * /orb_slam2_mono/ORBextractor/minThFAST: 7
+ * /orb_slam2_mono/ORBextractor/nFeatures: 2000
+ * /orb_slam2_mono/ORBextractor/nLevels: 8
+ * /orb_slam2_mono/ORBextractor/scaleFactor: 1.2
+ * /orb_slam2_mono/camera_cx: 311.43603515625
+ * /orb_slam2_mono/camera_cy: 248.0950164794922
+ * /orb_slam2_mono/camera_fps: 30
+ * /orb_slam2_mono/camera_frame_id: camera_link
+ * /orb_slam2_mono/camera_fx: 632.7927856445312
+ * /orb_slam2_mono/camera_fy: 626.8605346679688
+ * /orb_slam2_mono/camera_k1: -0.09097914397716522
+ * /orb_slam2_mono/camera_k2: 0.06503549218177795
+ * /orb_slam2_mono/camera_k3: 0.0
+ * /orb_slam2_mono/camera_p1: 0.000849052332341671
+ * /orb_slam2_mono/camera_p2: 0.001785792293958366
+ * /orb_slam2_mono/camera_rgb_encoding: True
+ * /orb_slam2_mono/load_calibration_from_cam: False
+ * /orb_slam2_mono/load_map: False
+ * /orb_slam2_mono/localize_only: False
+ * /orb_slam2_mono/map_file: map.bin
+ * /orb_slam2_mono/min_num_kf_in_map: 5
+ * /orb_slam2_mono/pointcloud_frame_id: map
+ * /orb_slam2_mono/publish_pointcloud: True
+ * /orb_slam2_mono/publish_pose: True
+ * /orb_slam2_mono/reset_map: False
+ * /orb_slam2_mono/voc_file: /orb_slam_2_ros/o...
+ * /rosdistro: noetic
+ * /rosversion: 1.15.9
+
+NODES
+  /
+    orb_slam2_mono (orb_slam2_ros/orb_slam2_ros_mono)
+
+ROS_MASTER_URI=http://localhost:11311
+
+process[orb_slam2_mono-1]: started with pid [60]
+
+ORB-SLAM2 Copyright (C) 2014-2016 Raul Mur-Artal, University of Zaragoza.
+This program comes with ABSOLUTELY NO WARRANTY;
+This is free software, and you are welcome to redistribute it
+under certain conditions. See LICENSE.txt.
+
+OpenCV version : 4.2.0
+Major version : 4
+Minor version : 2
+Subminor version : 0
+Input sensor was set to: Monocular
+
+Loading ORB Vocabulary.
+Vocabulary loaded!
+
+
+Camera Parameters: 
+- fx: 632.793
+- fy: 626.861
+- cx: 311.436
+- cy: 248.095
+- k1: -0.0909791
+- k2: 0.0650355
+- p1: 0.000849052
+- p2: 0.00178579
+- fps: 30
+- bf: 4.59149e-41
+- color order: RGB (ignored if grayscale)
+
+ORB Extractor Parameters: 
+- Number of Features: 2000
+- Scale Levels: 8
+- Scale Factor: 1.2
+- Initial Fast Threshold: 20
+- Minimum Fast Threshold: 7
+Enable localization only: false
+Map point vector is empty!
+Map point vector is empty!
+Map point vector is empty!
+Map point vector is empty!
+Map point vector is empty!
+Map point vector is empty!
+Map point vector is empty!
+Map point vector is empty!
+Map point vector is empty!
+Map point vector is empty!
+Map point vector is empty!
+Map point vector is empty!
+Map point vector is empty!
+Map point vector is empty!
+Map point vector is empty!
+Map point vector is empty!
+Map point vector is empty!
+Map point vector is empty!
+Map point vector is empty!
+Map point vector is empty!
+Map point vector is empty!
+Map point vector is empty!
+Map point vector is empty!
+Map point vector is empty!
+Map point vector is empty!
+Map point vector is empty!
+Map point vector is empty!
+Map point vector is empty!
+Map point vector is empty!
+Map point vector is empty!
+Map point vector is empty!
+Map point vector is empty!
+Map point vector is empty!
+Map point vector is empty!
+Map point vector is empty!
+New Map created with 118 points
+[ WARN] [1620153702.356519172]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1620153702.358269727]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1620153703.273954453]: "camera_link" passed to lookupTransform argument target_frame does not exist.  
 ```
-roslaunch realsense2_camera rs_rgbd.launch
+(The first `Map point vector is empty!` should appear after Terminal D starts publishing)
+
+### Terminal C
 ```
-to get the depth stream.
-**Solution:**
-install the rgbd-launch package with the command (make sure to adjust the ROS distro if needed):
+[ INFO] [1620153702.358662571]: Received pose: 0x5616e6fbc8f0
+[ INFO] [1620153703.274365240]: Received pose: 0x5616e6fbcef0
+[ INFO] [1620153704.262915530]: Received pose: 0x5616e6fbd2c0
 ```
-sudo apt install ros-melodic-rgbd-launch
+(Should appear after `New Map created with ... points` on terminal B)
+
+### Terminal D 
 ```
+[INFO] [1620153666.206704]: [image_folder_publisher] (topic_name) Publishing Images to topic  /camera/rgb/image_raw
+[INFO] [1620153666.209049]: [image_folder_publisher] (publish_rate) Publish rate set to 1 hz
+[INFO] [1620153666.210476]: [image_folder_publisher] (sort_files) Sort Files: True
+[INFO] [1620153666.211829]: [image_folder_publisher] (frame_id) Frame ID set to  camera
+[INFO] [1620153666.213169]: [image_folder_publisher] (loop) Loop  1 time(s) (set it -1 for infinite)
+[INFO] [1620153666.218204]: [image_folder_publisher] Reading images from ./../../rgbd_dataset_freiburg1_xyz/rgb
+[INFO] [1620153666.256244]: [image_folder_publisher] Published ./../../rgbd_dataset_freiburg1_xyz/rgb/1305031102.175304.png
+[INFO] [1620153667.232531]: [image_folder_publisher] Published ./../../rgbd_dataset_freiburg1_xyz/rgb/1305031102.211214.png
+[INFO] [1620153668.231347]: [image_folder_publisher] Published ./../../rgbd_dataset_freiburg1_xyz/rgb/1305031102.243211.png
+```
+
+
+
+
+
+
+
+
+
+
+
+
