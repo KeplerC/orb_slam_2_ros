@@ -3754,3 +3754,22 @@ EC2: 1623986555.786177 ... shutting down processing monitor complete
 [follower3-5] process has finished cleanly
 log file: /home/ubuntu/.ros/log/35d13610-cfe1-11eb-b65b-b3ce6f30fdca/follower3-5*.log
 
+
+^C[follower2-4] killing on exit
+[follower1-3] killing on exit
+[leader-2] killing on exit
+[leader-2] escalating to SIGTERM
+[follower2-4] escalating to SIGTERM
+[follower1-3] escalating to SIGTERM
+[leader-2] escalating to SIGKILL
+[follower2-4] escalating to SIGKILL
+[follower1-3] escalating to SIGKILL
+[rosout-1] killing on exit
+[master] killing on exit
+Shutdown errors:
+ * process[follower2-4, pid 50787]: required SIGKILL. May still be running.
+ * process[follower1-3, pid 50786]: required SIGKILL. May still be running.
+ * process[leader-2, pid 50785]: required SIGKILL. May still be running.
+shutting down processing monitor...
+... shutting down processing monitor complete
+done
