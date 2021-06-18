@@ -1,0 +1,847 @@
+roslaunch roscloud roscloud_orb_slam2_vpc.launch   
+... logging to /home/ubuntu/.ros/log/35d13610-cfe1-11eb-b65b-b3ce6f30fdca/roslaunch-ip-172-31-0-70-50759.log
+Checking log directory for disk usage. This may take a while.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+
+started roslaunch server http://ip-172-31-0-70:44533/
+
+SUMMARY
+========
+
+PARAMETERS
+ * /follower1/env_script: /home/ubuntu/catk...
+ * /follower1/instance_type: t2.large
+ * /follower1/launch_file: /home/ubuntu/catk...
+ * /follower2/env_script: /home/ubuntu/catk...
+ * /follower2/instance_type: t2.large
+ * /follower2/launch_file: /home/ubuntu/catk...
+ * /follower3/env_script: /home/ubuntu/catk...
+ * /follower3/instance_type: t2.large
+ * /follower3/launch_file: /home/ubuntu/catk...
+ * /leader/env_script: /home/ubuntu/catk...
+ * /leader/instance_type: t2.large
+ * /leader/launch_file: /home/ubuntu/catk...
+ * /rosdistro: noetic
+ * /rosversion: 1.15.11
+
+NODES
+  /
+    follower1 (roscloud/roscloud_vpc.py)
+    follower2 (roscloud/roscloud_vpc.py)
+    follower3 (roscloud/roscloud_vpc.py)
+    leader (roscloud/roscloud_vpc.py)
+
+auto-starting new master
+process[master]: started with pid [50768]
+ROS_MASTER_URI=http://localhost:11311
+
+setting /run_id to 35d13610-cfe1-11eb-b65b-b3ce6f30fdca
+process[rosout-1]: started with pid [50778]
+started core service [/rosout]
+process[leader-2]: started with pid [50785]
+process[follower1-3]: started with pid [50786]
+process[follower2-4]: started with pid [50787]
+process[follower3-5]: started with pid [50788]
+/leader
+start launching 1623985175.0491807
+/follower2
+start launching 1623985175.0612683
+/follower1
+/follower3
+start launching 1623985175.0654144
+start launching 1623985175.0670834
+-----BEGIN RSA PRIVATE KEY-----
+MIIEpAIBAAKCAQEAkn0NdN7HUDN38sdPTyQUtf7O13PiMbgux4+urIMDQIChWdQ3
+d0/qZ5QcSPHE57/43LycfvkJDiJrWWleNy9aq7Q70OOg+UmW/63OOQOfSWtmnoXZ
+2sq8h2ofFhly3veDoXEfGXCZNCAAYcVScS1gtYpmidUJBkndM45KC/f5rGXGvhQq
+a0Gi/iY3Q69gkn4QQRBkJ6Uul0Fk/FYMjnIiQc3NvqF0OZGKSKpnBFXn9BEuQp4v
+Ua0bxgN9fHNwKfTrjvVUcQ2AdDhkMNfIg8m5p6EZp/z7BuRpVmB4dy7SB81i4evZ
+gVNtuFC+UU6YZDNNzjXmauRnONKzJrQa81E3tQIDAQABAoIBAE07o3Gf12QAjtgw
+ny7xrf26Z2GO1o4yNm++4HBR7s/+QZOz4L6GIucTXspStecd/t6ajsQfFtgd641L
+kYH09JAcyYC70u48D2GkSFsk/sFd38/qcE77nuSiXdtv9XF6/CqNEsF97ThfOvRR
+bcMAEsIEQ0WeTVDEdtysw3uF9VwfzHH2ktx0K44gFxBXfOmp2F38h1rGgBjV0/yS
+C5q2liYXE007IIX+DD/tvik1DwW8fmpSwch9wWpLV4UF6E9xRUO1hpu3SEowl2rZ
+kRs3TKJjJtvexADHv5qDQEcbpEgeIBJBvKv+JZIV328qeHoB0oDaD4Qn4uUM7Bwy
+2WNjOAECgYEAy4Xvtn3O8QhQ63RzuHEHDNK56v517Nj9VisycuDW7LBqpGwTSph1
+/cSXo9Q8res/4iEqV2iy/Ts9KcihLvArJ3rEmz8jmc7ikKEiUUMpTNXwJ6/8nezR
+C7TCUkkvRy7AUjgw7c2aOlIJUjX8ieMNt7jrfjAvyAU82OpahUnMNgECgYEAuEJl
+bEBvWopXCDjlESS6Aw3tKv6g/9Lc+L4sCapjsBsy47TDvuNn292Qx6fkPIpIzzIT
+quYsJwCwdQ38C8STLeSeiTDcx50kUrADBclglWhNEj/L6Ng6JCD8QjZbJpAKZ2Vx
+lJj2vCipyVj4g+cKENgB5Lg3hafzdn0ci7IJCbUCgYEAqJooX7IRgbQ19Rjf1Ogt
+wv2/b2GmJ7QLCxt2C50f76yma9fsk1uCQ9xdEyd7rUi5/4ciII9n2Ej+/mJqxQvJ
+dEdMIKBJyd2N6+rRFyjgSfrhnL86M0pAU8ZHRQvD0uB0CqjqP9aX8cCMYELBFym1
+74GN9VfN/ZH5OmnK26irOAECgYA9TupMQIxMhec7dyLQt3Wk+odFXP/Y3yJjKXOh
+q64LtKEUHttasnOmNmyr4fMRKbncJv9gR8G9IH+WExcgG0IVbRJK95UeXezuDl6T
+GFQoolGylsOUMA34Y3lL1qYxiI/No3VNSjAenzEPK6lUyhURUa4fmiPvNtjNPge3
+e3+CWQKBgQCyq9iIcc2aJD9+WjpfO0GkX73Xw+ebiVMqlRpMpS/9i3hg88U9gYWQ
+4KSnptWoBcTtb0NQuKCVt+VaReSsZmqHQW6FHpcyqVkqdhU/wTYFNulbpeIsz+ta
+E4xwHmiVp7hpC03XmNdkbPrwziASVFFIuq+9P2HhQWt4zRsGOnH7WQ==
+-----END RSA PRIVATE KEY-----
+-----BEGIN RSA PRIVATE KEY-----
+MIIEowIBAAKCAQEAubs+5kDoJ6wyXgXnxSLPlLhhjXYa3vqLSZ1CVkFuwXqlctEI
+Vz0rQCu/XcVY83O2ONjNHDlGNQL4ek3v9z/S3klMYKBMUxrL7uyZugWBBw8kAzPC
+O+93ZaQMkhZCD6PL9n5eq7e9cmAs4dAHyWg+gOXYGoGvljVv9wCnIGLTAcIBbYsE
+Wj00WHd5qWbHAeRIcSUpOkKJv6iH2/R2Tbv4ewKfQ+rYOfEQxqCnOZu4ZTTECS1i
+7wubGnJ40i9VpmImMGFVlIkyfb4+bs/uaD1bwxIXYRq35nCSZNR9SqXolU+OWNS0
+vGVn5sNykYmHytWFqTrQvDixncZQUV5Bk68FDQIDAQABAoIBAA3RjKB8+8jX2vd7
+4P6d1GvwO/HWc7FbWrmjZagdPixO/7hHLSOwfWNM3fQQFsomNcyM9NXAvSR8kBgp
+bE0tBndbZL9brdIREFM6b0WT20G3Mqq6Ux06d9usFPNZjJi1SxuP02NbTFESLsSu
+QaYOh3f3odh3BaVbXHU4KzcRozliIT76d/5Zu1CRYv4u+RYz1IGKZ9ebwPWZ2Vbg
+dtR+Hap1SIPJgFQg3V6SZETuL/l6XhHbLCTcd9FLl4Ne15FKAfwxbqhUUorkU/zM
+TsXHwLMFU7V/vE1kR4qJXC9KtYbZ9sgXWpEHzWkCxvwe7bsRHnddGKoGw/VL1Hl9
+jlwQztECgYEA7e2C5vIrWszckr2bzAjYfsKtlfuKbskukG+n80wXPdZkZhbiSQm1
+LvcZ09n1S6wDY0IqrQGzL38agjHoqhKHoLeQGaRRcVSGRQ0Ph97XCouoCEalWKYJ
+XeZpSrTf+N/th0RcG3c4+zRqv+nnuzO3S7GLH0KVbaEzZsK+03toK2sCgYEAx9bH
+skJjPtvKmNIRlNjd3SPrN5NfqXy79vcFBPOF9F16/vKLmS7pRSySpaCfqCxdSyKC
+SmaysC/ZtLzsbCXvxTLqSRONf0J6mwduutmzQpSNMnJFZUhaWHemsnIhPzg+qRkw
+bSX3y14fk2vjpQEFyPUwbUS+4ejYHz/5HIbI52cCgYAYvc0R9PbbL1h0jfEIi5bv
+v5DLeufPU25bKLE/VJdKH+Q61YBcdfz4UEvIQu8GGnITvUqwyO94LfB0v3nhTaH6
+7Xu3nuW1MkPwJEaMK3kTKKili6sgB8wLjq0+TobH24lYupwVYxVy0eWT5V/qkJsr
+7N95tbPSPaQZuICdf0S61wKBgBGIgKDdPkPnmNDrrWs3089xNVP89Cm0rfEvHxue
+GiSkhwQTV7gq64CMNpmdjCR/L/hFoNTSSd83c4xt/vhGI9FTdEbRFlsSBBvR/R8b
+tqSiz/ibGgeW34ZfiRqi9NPNJYJEmYEaEbGgInkWwDRb8Jv/Fy6fF3hOq5eiT0L3
+eG0FAoGBANplc/uGmkr/EKZM/AEtOWF8S48xWQopldtGXOJXeRKJSwMAVGzgEPU+
+jN/elBRrzb1HtAjOXhQettKQaeRJ+kC0rJId/yHMgIPRr4DmDOOLS1C7wXBjqH5s
+Ur5yyQ0YM33GebJp/2UjWlhndsFqmZRqAqx+tv3bb6ULRmdMRmK0
+-----END RSA PRIVATE KEY-----
+-----BEGIN RSA PRIVATE KEY-----
+MIIEogIBAAKCAQEAl2ze/fMfTrvKezzpOHKbqKux4g6QTXijlRRX5iekCRU4bxfH
+mwIULw5onmf5hO5JP+6xdynsNts7H/xHPK2/5WGUY43EAyaLS46mpk1lNh3T+8/o
+/CyhNQ1G4LW3tveBgaNygfDa9YkR8tLdm9HmMscO/56zqY4FGfH5+txkVku9y6KQ
+nqEkG163DmibXwaE4H8e7OtbhczmBSz3CsX9vJqeCdUbADInFMMbk7zVg9dNNpZi
+mt773fEfvf8b0j8EETWkmvFFrzaS9Jb9irKYfmEpNhiVe+uiY7xfG2QbdxuYZSyn
+pZXyUAToAOFtt12gjIVFIzEGnMVgarRof/Aa9wIDAQABAoIBABgs0oEaspHgW1hH
+hjhz27QXDUQ47QLhUsR3Rf1BsOeeUq8xzbVKpKxKkZtQoD5/yIQDeKO8trCfWZYm
+sbzXRH67kHRAat3R5oU+lg6Q5qq4ImLec6Tm/ym4H+u6N0VnyG5JCPwD1wFCS/JH
+hgfdf/H1Y8idrrNQMDJPNoi9bOt11ut41ojSlED1f9glIefL4ulQ0YzgHWxxgZQT
+shyHQSfeiOdmn3Q5VEgX7zQ810/YLd2A91dhk4K041VyxqZIwlvGeEYFIQxKYEVz
+5CJ/hbX6DbtnXzJScn3LWSSsMHd5g5ln+Hwl7pQMsUwdeSH/WhkKO4J6nInpHlRc
+IdYJKkkCgYEA2/G6gfuQB0e8zoA9CXVQjgLcUvz5arBCXHuJtdKbd6S3LVFl5qvY
+KFSU//TVz6zvqUaNywy3KCCLCWdYxpSfed9DxrnkHgcrWgI4QfgtjnDKzJgbvb1K
+B7tvT59ouKaA3zmNny3i3ex2R/AEb59foT3bTdjKygsZqp6Wl9NzIJ0CgYEAsD+l
+mqu/+kQQrRWYt38J/eIFq/dXpLpDEXBCMFslLFg+oo/IEp4TkPTHfDzDdWSbT1aB
+lgFfnWpyAHTjcxbVLjwBR6OBsLxXWbypH3ybAXPwdP/tXWROo/k3xowSv60N1uyn
+O3RJ1B01F2WfhmOI8ati7KFHgWHlDik6KvQag6MCgYA9/hw7ltQ5uRaWfb62c8KI
+xHWlTnhegd+ygX+HKB1504tt0ouOQNFkTLLSkgfRyUSjyacdnC/jt4h41hBHqIxq
+pWtNEAgkDpFBhW6l6XWtuEzw7c6j5D6Bf2sYXi3+HbAlOuuX+i7/ri6IiDY34Avs
+PqsZfglqeUZ6uMhpcsf4YQKBgBywf5iJ1Jo8cip6lX1pJIs7O4kenhmmaDxydZPB
+gm+RfcCgfwTozm6OKdrDWV3GnrFvd3CfkJzjMuN4I34cfV8lTWAH8Zh/UAi/eRgz
+BFhcMwwYjN7i8Ron+zhKnNKurM4Lf71h1JK+nmHMnQcXNLeCGnxCVI1vDgYcF+fe
+DGLZAoGAY/nzEOZF1+c9yZ53zu2BmKn8rmggnu6QpX0iSMUof6eq+J3DcTtbYJ27
+Dok5Fli1e0no+hGlkhDW+0x4M3SM8yh4Lzqj0PpLMEL3Z5KHsbq/xa8nHjL+BHtv
+b/EL3FB0vxGS0d9EFKDqmKbbnzBpvQ4/1kUj+HMOEt9m3kd1VXE=
+-----END RSA PRIVATE KEY-----
+-----BEGIN RSA PRIVATE KEY-----
+MIIEogIBAAKCAQEA3BkV2LdAf6dTbk3SVhhVRTiOn36YnL4+JIfV94aFAbSXJzse
++u0w20DN4nXVdD1epyIu0syqSEIfyKdCStTC7cLol18EvrqXJzeAynje0hqnyETs
+zq6BckDykZ30d04+mGBzH/C7+8/EoIXamO1LIhhDgaMCAG3JliPfWc5JujAGDxAq
+G9CrXVi1HUrSaj50pMj5TZd2YEE8tmAoxPZnM52ulh9zXu6qFsG4tH12H2dYJyvM
+kSvJPOdhgi1T5FqXemcCrQT1idoChseKo40LYwY740qKUqx4zlTU++miiwWfmCv6
+dAPAcB728mU8n6v7c1Hnoz7Xd13PsRa2sfejeQIDAQABAoIBAE6CQDGyhDZEqFTz
+O3DscxYi63TnAmb+0UnUjjUh7bXDBhu/UfitvLyorAf4gjBZZ7b0UYFt8duegpnf
+V507sWCAItlD0nx6MEqT2MPgQ5LsYSbltxauVow7sIrSrg4Uge12kfo1s8hJv1iH
+BoeANUmvH/1Q+PjQMJT2rMfq9o+LwmxD/uhnGk1Jt491eD1+ly5IHdkvZhe6nVWy
+xmLxUivztHeTADVgGk5fTPJtqvK5b/mrtVmgf/7bEOMlHphOsqdxTkXmCQ03mY2U
+AUHid56S1ut+eQ/izBcWAEiQ9eRUdns7Z9is0vCeT0r8CSBNT0OozoAkgFd0zEEl
+r5iZ+ZECgYEA8mMA3dQfxshx0iS4S1o/sonogRVmVcceirO020t7XQQJenYSxUQh
+5tYnvypGEIht8npPcZj/VcympCT12k0/U1RZgNzQ/yGfBOAu2Els/8sTC0lOzZBF
+teRRyQWpPJJVNpIQ2gCxe2yKa4kaMHV1LSQpL01TDPVsjT10womsq7UCgYEA6HWe
+OkiF7LbDEVilBByRlLnIV+DKL310a+YscjI0RgpprTIXb7Dx2JcsQ8pLZmrvr93b
+1FiN8LaZ3HkyPkZ7hnzk5Kd5G3ZcZ5aRs2peUVbwsAirzOWqOvhxuUl/dbGdGEk0
+Ha3TKpLWb/Q+96k6rSOg2Z23IjbOeLxvYpgsGzUCgYAZ11pBTBszKy2PVODdD7sY
+wsEp+ekWHgtwiCYw9wQo74Q/LRVlOJVQseY86DneC12Fa2rK1p/qOs5NU69uXavx
+q117co9JlAELGQeFgZaAUtst6dvf6JC2Cqh5gQQA9Czni30GcOp7GSBMxKopHmym
+qmNFqr2+9O9kw3eOQfVJvQKBgC73PI24A17tGgJSL5ziDMPIuWKP5ymrJi96pLY5
+0HfqOKmmeje1v1csS+QyZgN+TYjxwS1o6tycd/+kePM+GEz2xOQxtfVHd6nyMOPX
+9NBoSV63kcZnDHq3oXp3EAp+ZSf3+lCYwxZR7oNWDLbK+TDsBt6Qz+RYwGSCZdq8
+tgSVAoGAGsF0xcQSAoOVm8h4qUsbrKGZkrsggqto0Y+Dj/TxGm3BN4V78jB0aviT
+heoGt7H0kJlP8ORWDsLcq+C8z4jUuvQBTMTCYvLaVsnZcpUkoTC7Ue9/GwHvyeOm
+Yoc9ov24GmueynZ8ivxmwfXjllyg/hZwi7azoQxa9iMcKOPDC4s=
+-----END RSA PRIVATE KEY-----
+Security Group Created sg-0d8c6cb1decee834a in vpc vpc-0c8a6c6a.
+Security Group Created sg-0d12f0c587d04c2e8 in vpc vpc-0c8a6c6a.
+Security Group Created sg-0cea445fa81005195 in vpc vpc-0c8a6c6a.
+Security Group Created sg-0583fdec367a66be7 in vpc vpc-0c8a6c6a.
+Ingress Successfully Set {'ResponseMetadata': {'RequestId': '997b43a3-0404-4f62-b842-2a130d679694', 'HTTPStatusCode': 200, 'HTTPHeaders': {'x-amzn-requestid': '997b43a3-0404-4f62-b842-2a130d679694', 'cache-control': 'no-cache, no-store', 'strict-transport-security': 'max-age=31536000; includeSubDomains', 'content-type': 'text/xml;charset=UTF-8', 'content-length': '718', 'date': 'Fri, 18 Jun 2021 02:59:35 GMT', 'server': 'AmazonEC2'}, 'RetryAttempts': 0}}
+security group id is ['sg-0d8c6cb1decee834a']
+Ingress Successfully Set {'ResponseMetadata': {'RequestId': '7c34b4ed-b6eb-4f5d-a1ca-233e4bf32ca3', 'HTTPStatusCode': 200, 'HTTPHeaders': {'x-amzn-requestid': '7c34b4ed-b6eb-4f5d-a1ca-233e4bf32ca3', 'cache-control': 'no-cache, no-store', 'strict-transport-security': 'max-age=31536000; includeSubDomains', 'content-type': 'text/xml;charset=UTF-8', 'content-length': '718', 'date': 'Fri, 18 Jun 2021 02:59:35 GMT', 'server': 'AmazonEC2'}, 'RetryAttempts': 0}}
+security group id is ['sg-0583fdec367a66be7']
+Ingress Successfully Set {'ResponseMetadata': {'RequestId': '8f554813-340e-49a1-8ce3-e5cf14225c4e', 'HTTPStatusCode': 200, 'HTTPHeaders': {'x-amzn-requestid': '8f554813-340e-49a1-8ce3-e5cf14225c4e', 'cache-control': 'no-cache, no-store', 'strict-transport-security': 'max-age=31536000; includeSubDomains', 'content-type': 'text/xml;charset=UTF-8', 'content-length': '718', 'date': 'Fri, 18 Jun 2021 02:59:34 GMT', 'server': 'AmazonEC2'}, 'RetryAttempts': 0}}
+security group id is ['sg-0d12f0c587d04c2e8']
+Ingress Successfully Set {'ResponseMetadata': {'RequestId': '7a2b880e-c9a4-469a-89ee-bed545656ad6', 'HTTPStatusCode': 200, 'HTTPHeaders': {'x-amzn-requestid': '7a2b880e-c9a4-469a-89ee-bed545656ad6', 'cache-control': 'no-cache, no-store', 'strict-transport-security': 'max-age=31536000; includeSubDomains', 'content-type': 'text/xml;charset=UTF-8', 'content-length': '718', 'date': 'Fri, 18 Jun 2021 02:59:34 GMT', 'server': 'AmazonEC2'}, 'RetryAttempts': 0}}
+security group id is ['sg-0cea445fa81005195']
+Have created the instance:  [ec2.Instance(id='i-071bd690f9c5a07ec')]
+type: t2.large
+wait for launching to finish
+Have created the instance:  [ec2.Instance(id='i-02633ec980f3fb2ac')]
+type: t2.large
+wait for launching to finish
+Have created the instance:  [ec2.Instance(id='i-0ea88212462cac974')]
+type: t2.large
+wait for launching to finish
+Have created the instance:  [ec2.Instance(id='i-0626b6fb4c12fd75f')]
+type: t2.large
+wait for launching to finish
+launch finished
+launch finished
+launch finished
+public ip of ec2: 54.177.150.80
+public ip of ec2: 54.183.173.154
+public ip of ec2: 52.53.225.42
+launch finished
+public ip of ec2: 50.18.145.27
+robot public address is  54.151.126.181
+{'pkg="roscloud"'}
+robot public address is  54.151.126.181
+{'pkg="roscloud"'}
+robot public address is  54.151.126.181
+{'pkg="roscloud"'}
+robot public address is  54.151.126.181
+{'pkg="roscloud"'}
+
+export ROS_HOSTNAME=50.18.145.27
+export ROS_MASTER_URI=http://50.18.145.27:11311
+sudo apt install -y docker.io
+  
+sudo docker pull debbieliang/ros_open:posestamped
+
+sudo docker run --network host --rm -it debbieliang/ros_open:posestamped roscore
+
+sudo docker run --network host --rm -it debbieliang/ros_open:posestamped /bin/bash -c "cd /orb_slam_2_ros/build && source devel/setup.bash && cd .. && roscore"
+
+public == leader ===============
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+docker.io is already the newest version (19.03.8-0ubuntu1.20.04.2).
+The following packages were automatically installed and are no longer required:
+  python-pip-whl python3-wheel
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 100 not upgraded.
+need to modify the ip env
+
+export ROS_HOSTNAME=54.183.173.154
+export ROS_MASTER_URI=http://50.18.145.27:11311
+sudo apt install -y docker.io
+sudo docker pull debbieliang/ros_open:posestamped
+sudo docker run -e ROS_HOSTNAME=54.183.173.154  -e ROS_MASTER_URI=http://50.18.145.27:11311   --network host --rm -it debbieliang/ros_open:posestamped /bin/bash -c "cd /orb_slam_2_ros/build && source devel/setup.bash && cd .. && roslaunch orb_slam2_ros orb_slam2_r200_mono.launch"
+
+public != leader===========
+need to modify the ip env
+
+export ROS_HOSTNAME=52.53.225.42
+export ROS_MASTER_URI=http://50.18.145.27:11311
+sudo apt install -y docker.io
+sudo docker pull debbieliang/ros_open:posestamped 
+sudo docker run -e ROS_HOSTNAME=52.53.225.42  -e ROS_MASTER_URI=http://50.18.145.27:11311   --network host --rm -it debbieliang/ros_open:posestamped /bin/bash -c "cd /RosImageFolderPublisher && source devel/setup.bash && cd src && rosrun image_folder_publisher image_folder_publisher.py _image_folder:=./../../rgbd_dataset_freiburg1_xyz/rgb _topic_name=/camera/image_raw"
+
+public != leader===========
+need to modify the ip env
+
+export ROS_HOSTNAME=54.177.150.80
+export ROS_MASTER_URI=http://50.18.145.27:11311
+sudo apt install -y docker.io
+sudo docker pull debbieliang/ros_open:posestamped 
+sudo docker run -e ROS_HOSTNAME=54.177.150.80  -e ROS_MASTER_URI=http://50.18.145.27:11311   --network host --rm -it debbieliang/ros_open:posestamped /bin/bash -c "./orb_slam_2_ros/build/devel/lib/orb_slam2_ros/orb_slam2_ros_pss"
+
+public != leader===========
+Reading package lists... Done
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+docker.io is already the newest version (19.03.8-0ubuntu1.20.04.2).
+Building dependency tree       
+Reading state information... Done
+docker.io is already the newest version (19.03.8-0ubuntu1.20.04.2).
+The following packages were automatically installed and are no longer required:
+  python-pip-whl python3-wheel
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 100 not upgraded.
+The following packages were automatically installed and are no longer required:
+  python-pip-whl python3-wheel
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 100 not upgraded.
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+docker.io is already the newest version (19.03.8-0ubuntu1.20.04.2).
+The following packages were automatically installed and are no longer required:
+  python-pip-whl python3-wheel
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 100 not upgraded.
+posestamped: Pulling from debbieliang/ros_open
+a70d879fa598: Pulling fs layer 
+c4394a92d1f8: Pulling fs layer 
+10e6159c56c0: Pulling fs layer 
+ce7c5d2d7a66: Pulling fs layer 
+bccd2266e6de: Pulling fs layer 
+297407665153: Pulling fs layer 
+aeea5a306422: Pulling fs layer 
+1edc3a0a092c: Pulling fs layer 
+b3697162c286: Pulling fs layer 
+4a97757554a3: Pulling fs layer 
+45dce2891549: Pulling fs layer 
+7c0ad59c3114: Pulling fs layer 
+9f5df55dde3e: Pulling fs layer 
+195ec36e367e: Pulling fs layer 
+67315f309f8b: Pulling fs layer 
+cd94cd665c0c: Pulling fs layer 
+6367c86751a5: Pulling fs layer 
+c270329dbb73: Pulling fs layer 
+
+posestamped: Pulling from debbieliang/ros_open
+a70d879fa598: Pulling fs layer 
+c4394a92d1f8: Pulling fs layer 
+10e6159c56c0: Pulling fs layer 
+ce7c5d2d7a66: Pulling fs layer 
+bccd2266e6de: Pulling fs layer 
+297407665153: Pulling fs layer 
+aeea5a306422: Pulling fs layer 
+1edc3a0a092c: Pulling fs layer 
+b3697162c286: Pulling fs layer 
+4a97757554a3: Pulling fs layer 
+45dce2891549: Pulling fs layer 
+7c0ad59c3114: Pulling fs layer 
+9f5df55dde3e: Pulling fs layer 
+195ec36e367e: Pulling fs layer 
+67315f309f8b: Pulling fs layer 
+cd94cd665c0c: Pulling fs layer 
+6367c86751a5: Pulling fs layer 
+c270329dbb73: Pulling fs layer 
+
+posestamped: Pulling from debbieliang/ros_open
+a70d879fa598: Pulling fs layer 
+c4394a92d1f8: Pulling fs layer 
+10e6159c56c0: Pulling fs layer 
+ce7c5d2d7a66: Pulling fs layer 
+bccd2266e6de: Pulling fs layer 
+297407665153: Pulling fs layer 
+aeea5a306422: Pulling fs layer 
+1edc3a0a092c: Pulling fs layer 
+b3697162c286: Pulling fs layer 
+4a97757554a3: Pulling fs layer 
+45dce2891549: Pulling fs layer 
+7c0ad59c3114: Pulling fs layer 
+9f5df55dde3e: Pulling fs layer 
+195ec36e367e: Pulling fs layer 
+67315f309f8b: Pulling fs layer 
+cd94cd665c0c: Pulling fs layer 
+6367c86751a5: Pulling fs layer 
+c270329dbb73: Pulling fs layer 
+
+posestamped: Pulling from debbieliang/ros_open
+a70d879fa598: Pull complete 
+c4394a92d1f8: Pull complete 
+10e6159c56c0: Pull complete 
+a70d879fa598: Pull complete 
+c4394a92d1f8: Pull complete 
+10e6159c56c0: Pull complete 
+a70d879fa598: Pull complete 
+c4394a92d1f8: Pull complete 
+10e6159c56c0: Pull complete 
+ce7c5d2d7a66: Pull complete 
+bccd2266e6de: Pull complete 
+297407665153: Pull complete 
+aeea5a306422: Pull complete 
+1edc3a0a092c: Pull complete 
+b3697162c286: Pull complete 
+4a97757554a3: Pull complete 
+45dce2891549: Pull complete 
+7c0ad59c3114: Pull complete 
+9f5df55dde3e: Pull complete 
+195ec36e367e: Pull complete 
+67315f309f8b: Pull complete 
+cd94cd665c0c: Pull complete 
+6367c86751a5: Pull complete 
+c270329dbb73: Pull complete 
+637ba4e0c98e: Pull complete 
+Digest: sha256:28096ea381993693d1213ed31ed17e07cb067510266cda879d4b639841360fe1
+Status: Downloaded newer image for debbieliang/ros_open:posestamped
+docker.io/debbieliang/ros_open:posestamped
+... logging to /root/.ros/log/79163546-cfe2-11eb-8dd5-027b40b0ad39/roslaunch-ip-172-31-16-108-1.log
+Checking log directory for disk usage. This may take a while.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+
+started roslaunch server http://ip-172-31-16-108:33609/
+a70d879fa598: Pull complete 
+c4394a92d1f8: Pull complete 
+10e6159c56c0: Pull complete 
+ce7c5d2d7a66: Pull complete 
+bccd2266e6de: Pull complete 
+297407665153: Pull complete 
+aeea5a306422: Pull complete 
+1edc3a0a092c: Pull complete 
+b3697162c286: Pull complete 
+4a97757554a3: Pull complete 
+45dce2891549: Pull complete 
+7c0ad59c3114: Pull complete 
+9f5df55dde3e: Pull complete 
+195ec36e367e: Pull complete 
+67315f309f8b: Pull complete 
+cd94cd665c0c: Pull complete 
+6367c86751a5: Pull complete 
+c270329dbb73: Pull complete 
+637ba4e0c98e: Pull complete 
+Digest: sha256:28096ea381993693d1213ed31ed17e07cb067510266cda879d4b639841360fe1
+Status: Downloaded newer image for debbieliang/ros_open:posestamped
+docker.io/debbieliang/ros_open:posestamped
+[INFO] [1623985722.666777]: [image_folder_publisher] (topic_name) Publishing Images to topic  /camera/rgb/image_raw
+[INFO] [1623985722.671684]: [image_folder_publisher] (publish_rate) Publish rate set to 1 hz
+[INFO] [1623985722.673843]: [image_folder_publisher] (sort_files) Sort Files: True
+[INFO] [1623985722.676031]: [image_folder_publisher] (frame_id) Frame ID set to  camera
+[INFO] [1623985722.678344]: [image_folder_publisher] (loop) Loop  1 time(s) (set it -1 for infinite)
+[INFO] [1623985722.680741]: [image_folder_publisher] Reading images from ./../../rgbd_dataset_freiburg1_xyz/rgb
+[INFO] [1623985722.698108]: [image_folder_publisher] Published ./../../rgbd_dataset_freiburg1_xyz/rgb/1305031102.175304.png
+[INFO] [1623985723.692817]: [image_folder_publisher] Published ./../../rgbd_dataset_freiburg1_xyz/rgb/1305031102.211214.png
+[INFO] [1623985724.692399]: [image_folder_publisher] Published ./../../rgbd_dataset_freiburg1_xyz/rgb/1305031102.243211.png
+[INFO] [1623985725.691939]: [image_folder_publisher] Published ./../../rgbd_dataset_freiburg1_xyz/rgb/1305031102.275326.png
+[INFO] [1623985726.692393]: [image_folder_publisher] Published ./../../rgbd_dataset_freiburg1_xyz/rgb/1305031102.311267.png
+[INFO] [1623985727.692020]: [image_folder_publisher] Published ./../../rgbd_dataset_freiburg1_xyz/rgb/1305031102.343233.png
+[INFO] [1623985728.692130]: [image_folder_publisher] Published ./../../rgbd_dataset_freiburg1_xyz/rgb/1305031102.375329.png
+[INFO] [1623985729.692172]: [image_folder_publisher] Published ./../../rgbd_dataset_freiburg1_xyz/rgb/1305031102.411258.png
+[INFO] [1623985730.691870]: [image_folder_publisher] Published ./../../rgbd_dataset_freiburg1_xyz/rgb/1305031102.443271.png
+[INFO] [1623985731.692025]: [image_folder_publisher] Published ./../../rgbd_dataset_freiburg1_xyz/rgb/1305031102.475318.png
+[INFO] [1623985732.691552]: [image_folder_publisher] Published ./../../rgbd_dataset_freiburg1_xyz/rgb/1305031102.511219.png
+[INFO] [1623985733.691632]: [image_folder_publisher] Published ./../../rgbd_dataset_freiburg1_xyz/rgb/1305031102.543220.png
+[INFO] [1623985734.691458]: [image_folder_publisher] Published ./../../rgbd_dataset_freiburg1_xyz/rgb/1305031102.575286.png
+... logging to /root/.ros/log/79163546-cfe2-11eb-8dd5-027b40b0ad39/roslaunch-ip-172-31-17-231-1.log
+Checking log directory for disk usage. This may take a while.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+
+started roslaunch server http://54.183.173.154:32949/
+
+SUMMARY
+========
+
+PARAMETERS
+ * /orb_slam2_mono/ORBextractor/iniThFAST: 20
+ * /orb_slam2_mono/ORBextractor/minThFAST: 7
+ * /orb_slam2_mono/ORBextractor/nFeatures: 2000
+ * /orb_slam2_mono/ORBextractor/nLevels: 8
+ * /orb_slam2_mono/ORBextractor/scaleFactor: 1.2
+ * /orb_slam2_mono/camera_cx: 311.43603515625
+ * /orb_slam2_mono/camera_cy: 248.0950164794922
+ * /orb_slam2_mono/camera_fps: 30
+ * /orb_slam2_mono/camera_frame_id: camera_link
+ * /orb_slam2_mono/camera_fx: 632.7927856445312
+ * /orb_slam2_mono/camera_fy: 626.8605346679688
+ * /orb_slam2_mono/camera_k1: -0.09097914397716522
+ * /orb_slam2_mono/camera_k2: 0.06503549218177795
+ * /orb_slam2_mono/camera_k3: 0.0
+ * /orb_slam2_mono/camera_p1: 0.000849052332341671
+ * /orb_slam2_mono/camera_p2: 0.001785792293958366
+ * /orb_slam2_mono/camera_rgb_encoding: True
+ * /orb_slam2_mono/load_calibration_from_cam: False
+ * /orb_slam2_mono/load_map: False
+ * /orb_slam2_mono/localize_only: False
+ * /orb_slam2_mono/map_file: map.bin
+ * /orb_slam2_mono/min_num_kf_in_map: 5
+ * /orb_slam2_mono/pointcloud_frame_id: map
+ * /orb_slam2_mono/publish_pointcloud: True
+ * /orb_slam2_mono/publish_pose: True
+ * /orb_slam2_mono/reset_map: False
+ * /orb_slam2_mono/voc_file: /orb_slam_2_ros/o...
+ * /rosdistro: noetic
+ * /rosversion: 1.15.9
+
+NODES
+  /
+    orb_slam2_mono (orb_slam2_ros/orb_slam2_ros_mono)
+
+ROS_MASTER_URI=http://50.18.145.27:11311
+
+process[orb_slam2_mono-1]: started with pid [49]
+[INFO] [1623985735.691581]: [image_folder_publisher] Published ./../../rgbd_dataset_freiburg1_xyz/rgb/1305031102.611233.png
+[INFO] [1623985736.691578]: [image_folder_publisher] Published ./../../rgbd_dataset_freiburg1_xyz/rgb/1305031102.643265.png
+
+ORB-SLAM2 Copyright (C) 2014-2016 Raul Mur-Artal, University of Zaragoza.
+This program comes with ABSOLUTELY NO WARRANTY;
+This is free software, and you are welcome to redistribute it
+under certain conditions. See LICENSE.txt.
+
+OpenCV version : 4.2.0
+Major version : 4
+Minor version : 2
+Subminor version : 0
+Input sensor was set to: Monocular
+
+Loading ORB Vocabulary.
+Vocabulary loaded!
+
+
+Camera Parameters: 
+[INFO] [1623985737.692859]: [image_folder_publisher] Published ./../../rgbd_dataset_freiburg1_xyz/rgb/1305031102.675285.png
+- fx: 632.793
+- fy: 626.861
+- cx: 311.436
+- cy: 248.095
+- k1: -0.0909791
+- k2: 0.0650355
+- p1: 0.000849052
+- p2: 0.00178579
+- fps: 30
+- bf: 4.59149e-41
+- color order: RGB (ignored if grayscale)
+
+ORB Extractor Parameters: 
+- Number of Features: 2000
+- Scale Levels: 8
+- Scale Factor: 1.2
+- Initial Fast Threshold: 20
+- Minimum Fast Threshold: 7
+Enable localization only: false
+Map point vector is empty!
+[INFO] [1623985738.692714]: [image_folder_publisher] Published ./../../rgbd_dataset_freiburg1_xyz/rgb/1305031102.711263.png
+Map point vector is empty!
+[INFO] [1623985739.692418]: [image_folder_publisher] Published ./../../rgbd_dataset_freiburg1_xyz/rgb/1305031102.743234.png
+Map point vector is empty!
+[INFO] [1623985740.691940]: [image_folder_publisher] Published ./../../rgbd_dataset_freiburg1_xyz/rgb/1305031102.775472.png
+Map point vector is empty!
+[INFO] [1623985741.691891]: [image_folder_publisher] Published ./../../rgbd_dataset_freiburg1_xyz/rgb/1305031102.811232.png
+Map point vector is empty!
+[INFO] [1623985742.691878]: [image_folder_publisher] Published ./../../rgbd_dataset_freiburg1_xyz/rgb/1305031102.843290.png
+Map point vector is empty!
+[INFO] [1623985743.692154]: [image_folder_publisher] Published ./../../rgbd_dataset_freiburg1_xyz/rgb/1305031102.875363.png
+Map point vector is empty!
+[INFO] [1623985744.692040]: [image_folder_publisher] Published ./../../rgbd_dataset_freiburg1_xyz/rgb/1305031102.911185.png
+Map point vector is empty!
+[INFO] [1623985745.691861]: [image_folder_publisher] Published ./../../rgbd_dataset_freiburg1_xyz/rgb/1305031102.943229.png
+Map point vector is empty!
+[INFO] [1623985746.692372]: [image_folder_publisher] Published ./../../rgbd_dataset_freiburg1_xyz/rgb/1305031102.975203.png
+Map point vector is empty!
+[INFO] [1623985747.691881]: [image_folder_publisher] Published ./../../rgbd_dataset_freiburg1_xyz/rgb/1305031103.011215.png
+Map point vector is empty!
+[INFO] [1623985748.692159]: [image_folder_publisher] Published ./../../rgbd_dataset_freiburg1_xyz/rgb/1305031103.043227.png
+Map point vector is empty!
+[INFO] [1623985749.692067]: [image_folder_publisher] Published ./../../rgbd_dataset_freiburg1_xyz/rgb/1305031103.075319.png
+Map point vector is empty!
+[INFO] [1623985750.692239]: [image_folder_publisher] Published ./../../rgbd_dataset_freiburg1_xyz/rgb/1305031103.111240.png
+Map point vector is empty!
+[INFO] [1623985751.692036]: [image_folder_publisher] Published ./../../rgbd_dataset_freiburg1_xyz/rgb/1305031103.143318.png
+New Map created with 122 points
+[ WARN] [1623985751.815692832]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1623985751.819137900]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ INFO] [1623985751.827264659]: Received pose: 0x556bb05f78c0
+[INFO] [1623985752.692372]: [image_folder_publisher] Published ./../../rgbd_dataset_freiburg1_xyz/rgb/1305031103.175452.png
+[ WARN] [1623985752.745776861]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1623985752.745876144]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ INFO] [1623985752.754206941]: Received pose: 0x556bb05f9650
+[INFO] [1623985753.692001]: [image_folder_publisher] Published ./../../rgbd_dataset_freiburg1_xyz/rgb/1305031103.211220.png
+[ WARN] [1623985753.734642420]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1623985753.734733317]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ INFO] [1623985753.742883682]: Received pose: 0x556bb05f9940
+[INFO] [1623985754.691870]: [image_folder_publisher] Published ./../../rgbd_dataset_freiburg1_xyz/rgb/1305031103.243216.png
+[ WARN] [1623985754.734363755]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1623985754.734457154]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ INFO] [1623985754.742527542]: Received pose: 0x556bb05f9ad0
+[INFO] [1623985755.691731]: [image_folder_publisher] Published ./../../rgbd_dataset_freiburg1_xyz/rgb/1305031103.275370.png
+[ WARN] [1623985755.734298656]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1623985755.734384851]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ INFO] [1623985755.742519557]: Received pose: 0x556bb05f9ca0
+[INFO] [1623985756.692575]: [image_folder_publisher] Published ./../../rgbd_dataset_freiburg1_xyz/rgb/1305031103.311210.png
+[ WARN] [1623985756.737081278]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1623985756.737373242]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ INFO] [1623985756.745360256]: Received pose: 0x556bb05f9f20
+[INFO] [1623985757.692012]: [image_folder_publisher] Published ./../../rgbd_dataset_freiburg1_xyz/rgb/1305031103.343223.png
+[ WARN] [1623985757.737351493]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1623985757.737469749]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ INFO] [1623985757.745455368]: Received pose: 0x556bb05fa110
+[INFO] [1623985758.692165]: [image_folder_publisher] Published ./../../rgbd_dataset_freiburg1_xyz/rgb/1305031103.375327.png
+[ WARN] [1623985758.738822642]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1623985758.739197112]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ INFO] [1623985758.747011865]: Received pose: 0x556bb05fa300
+[INFO] [1623985759.692017]: [image_folder_publisher] Published ./../../rgbd_dataset_freiburg1_xyz/rgb/1305031103.411260.png
+[ WARN] [1623985759.739320325]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1623985759.739535550]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ INFO] [1623985759.747500558]: Received pose: 0x556bb05fa3b0
+[INFO] [1623985760.692416]: [image_folder_publisher] Published ./../../rgbd_dataset_freiburg1_xyz/rgb/1305031103.443280.png
+[ WARN] [1623985760.739330250]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1623985760.739844034]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ INFO] [1623985760.747602026]: Received pose: 0x556bb05f9e90
+[INFO] [1623985761.692157]: [image_folder_publisher] Published ./../../rgbd_dataset_freiburg1_xyz/rgb/1305031103.475274.png
+[ WARN] [1623985761.738886041]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1623985761.738982077]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ INFO] [1623985761.746818059]: Received pose: 0x556bb05fa550
+[INFO] [1623985762.691968]: [image_folder_publisher] Published ./../../rgbd_dataset_freiburg1_xyz/rgb/1305031103.511333.png
+[ WARN] [1623985762.739706758]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1623985762.739797385]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ INFO] [1623985762.747627000]: Received pose: 0x556bb05fa5e0
+[INFO] [1623985763.692166]: [image_folder_publisher] Published ./../../rgbd_dataset_freiburg1_xyz/rgb/1305031103.543444.png
+[ WARN] [1623985763.739316848]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1623985763.739407308]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ INFO] [1623985763.747229342]: Received pose: 0x556bb05fa670
+[INFO] [1623985764.692095]: [image_folder_publisher] Published ./../../rgbd_dataset_freiburg1_xyz/rgb/1305031103.575474.png
+[ WARN] [1623985764.740648277]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1623985764.740738972]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ INFO] [1623985764.748538404]: Received pose: 0x556bb05fa700
+[INFO] [1623985765.691835]: [image_folder_publisher] Published ./../../rgbd_dataset_freiburg1_xyz/rgb/1305031103.611223.png
+[ WARN] [1623985765.740062010]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1623985765.740148255]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ INFO] [1623985765.747937961]: Received pose: 0x556bb05fa790
+[INFO] [1623985766.691892]: [image_folder_publisher] Published ./../../rgbd_dataset_freiburg1_xyz/rgb/1305031103.643445.png
+[ WARN] [1623985766.740863506]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1623985766.740959997]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ INFO] [1623985766.748686053]: Received pose: 0x556bb05fa820
+[INFO] [1623985767.692008]: [image_folder_publisher] Published ./../../rgbd_dataset_freiburg1_xyz/rgb/1305031103.675523.png
+[ WARN] [1623985767.743760049]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1623985767.743886528]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ INFO] [1623985767.751557742]: Received pose: 0x556bb05fa8b0
+[INFO] [1623985768.691919]: [image_folder_publisher] Published ./../../rgbd_dataset_freiburg1_xyz/rgb/1305031103.711610.png
+[ WARN] [1623985768.743947279]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1623985768.744076531]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ INFO] [1623985768.751883353]: Received pose: 0x556bb05fa940
+[INFO] [1623985769.692043]: [image_folder_publisher] Published ./../../rgbd_dataset_freiburg1_xyz/rgb/1305031103.743326.png
+[ WARN] [1623985769.742662441]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1623985769.742786405]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ INFO] [1623985769.750367604]: Received pose: 0x556bb05fabe0
+[INFO] [1623985770.692053]: [image_folder_publisher] Published ./../../rgbd_dataset_freiburg1_xyz/rgb/1305031103.775342.png
+[ WARN] [1623985770.744463503]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1623985770.744592937]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ INFO] [1623985770.752209152]: Received pose: 0x556bb05fac70
+[INFO] [1623985771.692152]: [image_folder_publisher] Published ./../../rgbd_dataset_freiburg1_xyz/rgb/1305031103.811242.png
+[ WARN] [1623985771.744421848]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1623985771.744544683]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ INFO] [1623985771.752222276]: Received pose: 0x556bb05fad00
+[INFO] [1623985772.692028]: [image_folder_publisher] Published ./../../rgbd_dataset_freiburg1_xyz/rgb/1305031103.843251.png
+[ WARN] [1623985772.742525615]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1623985772.742683128]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ INFO] [1623985772.750242269]: Received pose: 0x556bb05fad90
+[INFO] [1623985773.691885]: [image_folder_publisher] Published ./../../rgbd_dataset_freiburg1_xyz/rgb/1305031103.875361.png
+[ WARN] [1623985773.743810480]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1623985773.743902274]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ INFO] [1623985773.751646437]: Received pose: 0x556bb05fae20
+[INFO] [1623985774.691852]: [image_folder_publisher] Published ./../../rgbd_dataset_freiburg1_xyz/rgb/1305031103.911221.png
+[ WARN] [1623985774.742494800]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1623985774.742796125]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ INFO] [1623985774.750309324]: Received pose: 0x556bb05faeb0
+[INFO] [1623985775.692072]: [image_folder_publisher] Published ./../../rgbd_dataset_freiburg1_xyz/rgb/1305031103.943211.png
+[ WARN] [1623985775.742781608]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1623985775.742914299]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ INFO] [1623985775.750392923]: Received pose: 0x556bb05faf40
+[INFO] [1623985776.691986]: [image_folder_publisher] Published ./../../rgbd_dataset_freiburg1_xyz/rgb/1305031103.975373.png
+[ WARN] [1623985776.742566220]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1623985776.742688855]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ INFO] [1623985776.750270512]: Received pose: 0x556bb05fafd0
+[INFO] [1623985777.691854]: [image_folder_publisher] Published ./../../rgbd_dataset_freiburg1_xyz/rgb/1305031104.011232.png
+[ WARN] [1623985777.742706438]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1623985777.742832943]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ INFO] [1623985777.750196488]: Received pose: 0x556bb05fb060
+[INFO] [1623985778.692004]: [image_folder_publisher] Published ./../../rgbd_dataset_freiburg1_xyz/rgb/1305031104.043249.png
+[ WARN] [1623985778.743230533]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1623985778.743562424]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ INFO] [1623985778.751014222]: Received pose: 0x556bb05fb0f0
+[INFO] [1623985779.691963]: [image_folder_publisher] Published ./../../rgbd_dataset_freiburg1_xyz/rgb/1305031104.075425.png
+[ WARN] [1623985779.743796246]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1623985779.743924681]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ INFO] [1623985779.751250703]: Received pose: 0x556bb05fb180
+[INFO] [1623985780.691927]: [image_folder_publisher] Published ./../../rgbd_dataset_freiburg1_xyz/rgb/1305031104.111235.png
+[ WARN] [1623985780.742364904]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1623985780.742488975]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ INFO] [1623985780.749911271]: Received pose: 0x556bb05fb210
+[INFO] [1623985781.692342]: [image_folder_publisher] Published ./../../rgbd_dataset_freiburg1_xyz/rgb/1305031104.143230.png
+[ WARN] [1623985781.744555318]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1623985781.744682283]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ INFO] [1623985781.751872621]: Received pose: 0x556bb05fb2a0
+[INFO] [1623985782.692096]: [image_folder_publisher] Published ./../../rgbd_dataset_freiburg1_xyz/rgb/1305031104.175424.png
+[ WARN] [1623985782.744291121]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1623985782.744394752]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ INFO] [1623985782.751656407]: Received pose: 0x556bb05fb330
+[INFO] [1623985783.692045]: [image_folder_publisher] Published ./../../rgbd_dataset_freiburg1_xyz/rgb/1305031104.211283.png
+[ WARN] [1623985783.743236179]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1623985783.743334704]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ INFO] [1623985783.750625171]: Received pose: 0x556bb05fb3c0
+[INFO] [1623985784.692345]: [image_folder_publisher] Published ./../../rgbd_dataset_freiburg1_xyz/rgb/1305031104.243196.png
+[ WARN] [1623985784.742373024]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1623985784.742485354]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ INFO] [1623985784.749603346]: Received pose: 0x556bb05fb860
+[INFO] [1623985785.692037]: [image_folder_publisher] Published ./../../rgbd_dataset_freiburg1_xyz/rgb/1305031104.275546.png
+[ WARN] [1623985785.741608756]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1623985785.741849848]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ INFO] [1623985785.748921837]: Received pose: 0x556bb05fb8f0
+[INFO] [1623985786.692078]: [image_folder_publisher] Published ./../../rgbd_dataset_freiburg1_xyz/rgb/1305031104.311219.png
+[ WARN] [1623985786.741872735]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1623985786.742525639]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ INFO] [1623985786.749624500]: Received pose: 0x556bb05fb980
+[INFO] [1623985787.692119]: [image_folder_publisher] Published ./../../rgbd_dataset_freiburg1_xyz/rgb/1305031104.343342.png
+[ WARN] [1623985787.741664211]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1623985787.741784808]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ INFO] [1623985787.749006995]: Received pose: 0x556bb05fba10
+[INFO] [1623985788.692075]: [image_folder_publisher] Published ./../../rgbd_dataset_freiburg1_xyz/rgb/1305031104.375837.png
+[ WARN] [1623985788.742259413]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1623985788.742411383]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ INFO] [1623985788.749526339]: Received pose: 0x556bb05fbaa0
+[INFO] [1623985789.692190]: [image_folder_publisher] Published ./../../rgbd_dataset_freiburg1_xyz/rgb/1305031104.411509.png
+[ WARN] [1623985789.741603473]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1623985789.741886812]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ INFO] [1623985789.748893765]: Received pose: 0x556bb05fbc30
+[INFO] [1623985790.692289]: [image_folder_publisher] Published ./../../rgbd_dataset_freiburg1_xyz/rgb/1305031104.443288.png
+[ WARN] [1623985790.743755356]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1623985790.744119482]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ INFO] [1623985790.750993128]: Received pose: 0x556bb05fbcc0
+[INFO] [1623985791.692119]: [image_folder_publisher] Published ./../../rgbd_dataset_freiburg1_xyz/rgb/1305031104.475456.png
+[ WARN] [1623985791.743580773]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1623985791.743703466]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ INFO] [1623985791.750705237]: Received pose: 0x556bb05fbd50
+[INFO] [1623985792.692078]: [image_folder_publisher] Published ./../../rgbd_dataset_freiburg1_xyz/rgb/1305031104.511329.png
+[ WARN] [1623985792.742082110]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1623985792.742203332]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ INFO] [1623985792.749167254]: Received pose: 0x556bb05fbde0
+[INFO] [1623985793.692323]: [image_folder_publisher] Published ./../../rgbd_dataset_freiburg1_xyz/rgb/1305031104.543368.png
+[ WARN] [1623985793.742622360]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1623985793.742744044]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ INFO] [1623985793.749698937]: Received pose: 0x556bb05fbe70
+[INFO] [1623985794.692078]: [image_folder_publisher] Published ./../../rgbd_dataset_freiburg1_xyz/rgb/1305031104.575343.png
+[ WARN] [1623985794.741517624]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1623985794.741638913]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ INFO] [1623985794.748585514]: Received pose: 0x556bb05fbf00
+[INFO] [1623985795.691908]: [image_folder_publisher] Published ./../../rgbd_dataset_freiburg1_xyz/rgb/1305031104.611336.png
+[ WARN] [1623985795.738944769]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1623985795.739072162]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ INFO] [1623985795.746122438]: Received pose: 0x556bb05fbf90
+[INFO] [1623985796.691949]: [image_folder_publisher] Published ./../../rgbd_dataset_freiburg1_xyz/rgb/1305031104.643243.png
+[ WARN] [1623985796.738443309]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1623985796.738565546]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ INFO] [1623985796.745458051]: Received pose: 0x556bb05fc020
+[INFO] [1623985797.691966]: [image_folder_publisher] Published ./../../rgbd_dataset_freiburg1_xyz/rgb/1305031104.675525.png
+[ WARN] [1623985797.737336800]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1623985797.737462588]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ INFO] [1623985797.744489647]: Received pose: 0x556bb05fc0b0
+[INFO] [1623985798.691957]: [image_folder_publisher] Published ./../../rgbd_dataset_freiburg1_xyz/rgb/1305031104.711277.png
+[ WARN] [1623985798.736642369]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1623985798.736765969]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ INFO] [1623985798.743857888]: Received pose: 0x556bb05fc140
+[INFO] [1623985799.691940]: [image_folder_publisher] Published ./../../rgbd_dataset_freiburg1_xyz/rgb/1305031104.743280.png
+[ WARN] [1623985799.735939580]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1623985799.736062621]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ INFO] [1623985799.742870266]: Received pose: 0x556bb05fc1d0
+[INFO] [1623985800.692025]: [image_folder_publisher] Published ./../../rgbd_dataset_freiburg1_xyz/rgb/1305031104.775327.png
+[ WARN] [1623985800.735692047]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1623985800.735813435]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ INFO] [1623985800.742790533]: Received pose: 0x556bb05fc260
+[INFO] [1623985801.691918]: [image_folder_publisher] Published ./../../rgbd_dataset_freiburg1_xyz/rgb/1305031104.811465.png
+[ INFO] [1623985801.743651818]: Received pose: 0x556bb05fc2f0
+[ WARN] [1623985801.737021804]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1623985801.737148382]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[INFO] [1623985802.692410]: [image_folder_publisher] Published ./../../rgbd_dataset_freiburg1_xyz/rgb/1305031104.843258.png
+[ WARN] [1623985802.737988841]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1623985802.738115994]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ INFO] [1623985802.744966316]: Received pose: 0x556bb05fc380
+[INFO] [1623985803.692241]: [image_folder_publisher] Published ./../../rgbd_dataset_freiburg1_xyz/rgb/1305031104.875350.png
+[ WARN] [1623985803.736404240]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1623985803.736534078]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ INFO] [1623985803.743252931]: Received pose: 0x556bb05fc410
+[INFO] [1623985804.692323]: [image_folder_publisher] Published ./../../rgbd_dataset_freiburg1_xyz/rgb/1305031104.911534.png
+[ WARN] [1623985804.736737770]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1623985804.736870223]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ INFO] [1623985804.743594264]: Received pose: 0x556bb05fc4a0
+[INFO] [1623985805.692350]: [image_folder_publisher] Published ./../../rgbd_dataset_freiburg1_xyz/rgb/1305031104.943262.png
+[ WARN] [1623985805.737269402]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1623985805.737400628]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ INFO] [1623985805.744098391]: Received pose: 0x556bb05fc530
+[INFO] [1623985806.692263]: [image_folder_publisher] Published ./../../rgbd_dataset_freiburg1_xyz/rgb/1305031104.975202.png
+[ WARN] [1623985806.736939184]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1623985806.737068711]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ INFO] [1623985806.743924330]: Received pose: 0x556bb05fc5c0
+[INFO] [1623985807.692269]: [image_folder_publisher] Published ./../../rgbd_dataset_freiburg1_xyz/rgb/1305031105.011290.png
+[ WARN] [1623985807.736384359]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1623985807.736509952]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ INFO] [1623985807.743183979]: Received pose: 0x556bb05fc650
+[INFO] [1623985808.692247]: [image_folder_publisher] Published ./../../rgbd_dataset_freiburg1_xyz/rgb/1305031105.043373.png
+[ WARN] [1623985808.736163311]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1623985808.736289369]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ INFO] [1623985808.742969053]: Received pose: 0x556bb05fc6e0
+[INFO] [1623985809.692192]: [image_folder_publisher] Published ./../../rgbd_dataset_freiburg1_xyz/rgb/1305031105.075320.png
+[ WARN] [1623985809.736812873]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1623985809.736911837]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ INFO] [1623985809.743595257]: Received pose: 0x556bb05fc770
+[INFO] [1623985810.692221]: [image_folder_publisher] Published ./../../rgbd_dataset_freiburg1_xyz/rgb/1305031105.111299.png
+[ WARN] [1623985810.737575168]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1623985810.737697747]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ INFO] [1623985810.744380151]: Received pose: 0x556bb05fc800
+[INFO] [1623985811.692030]: [image_folder_publisher] Published ./../../rgbd_dataset_freiburg1_xyz/rgb/1305031105.143106.png
+[ WARN] [1623985811.736616516]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1623985811.736741977]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ INFO] [1623985811.744584873]: Received pose: 0x556bb05fc890
+[INFO] [1623985812.692060]: [image_folder_publisher] Published ./../../rgbd_dataset_freiburg1_xyz/rgb/1305031105.175159.png
+[ WARN] [1623985812.738515016]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1623985812.738605150]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ INFO] [1623985812.745012265]: Received pose: 0x556bb05fc920
+[INFO] [1623985813.692236]: [image_folder_publisher] Published ./../../rgbd_dataset_freiburg1_xyz/rgb/1305031105.211268.png
+[ WARN] [1623985813.742040715]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1623985813.742173829]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ INFO] [1623985813.748718086]: Received pose: 0x556bb05fc9b0
+[INFO] [1623985814.691949]: [image_folder_publisher] Published ./../../rgbd_dataset_freiburg1_xyz/rgb/1305031105.243270.png
+[ WARN] [1623985814.743144685]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1623985814.743264749]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ INFO] [1623985814.749918212]: Received pose: 0x556bb05fca40
+[INFO] [1623985815.692171]: [image_folder_publisher] Published ./../../rgbd_dataset_freiburg1_xyz/rgb/1305031105.275288.png
+[ WARN] [1623985815.742232575]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1623985815.742356906]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ INFO] [1623985815.748807826]: Received pose: 0x556bb05fcad0
+[INFO] [1623985816.691983]: [image_folder_publisher] Published ./../../rgbd_dataset_freiburg1_xyz/rgb/1305031105.311290.png
+[ WARN] [1623985816.743036805]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1623985816.743160704]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ INFO] [1623985816.749853712]: Received pose: 0x556bb05fd370
+[INFO] [1623985817.692120]: [image_folder_publisher] Published ./../../rgbd_dataset_freiburg1_xyz/rgb/1305031105.343302.png
+[ WARN] [1623985817.744679393]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1623985817.744765582]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ INFO] [1623985817.751397995]: Received pose: 0x556bb05fd400
+[INFO] [1623985818.692047]: [image_folder_publisher] Published ./../../rgbd_dataset_freiburg1_xyz/rgb/1305031105.375338.png
+[ WARN] [1623985818.744458878]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1623985818.744548722]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ INFO] [1623985818.751072080]: Received pose: 0x556bb05fd490
+[INFO] [1623985819.692001]: [image_folder_publisher] Published ./../../rgbd_dataset_freiburg1_xyz/rgb/1305031105.411286.png
+[ WARN] [1623985819.744425893]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1623985819.744516248]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ INFO] [1623985819.751053853]: Received pose: 0x556bb05fd520
+[INFO] [1623985820.692103]: [image_folder_publisher] Published ./../../rgbd_dataset_freiburg1_xyz/rgb/1305031105.443316.png
+[ WARN] [1623985820.748085827]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1623985820.748240063]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ INFO] [1623985820.754709993]: Received pose: 0x556bb05fd5b0
+[INFO] [1623985821.692054]: [image_folder_publisher] Published ./../../rgbd_dataset_freiburg1_xyz/rgb/1305031105.475280.png
+[ WARN] [1623985821.749814537]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1623985821.749949172]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ INFO] [1623985821.756552218]: Received pose: 0x556bb05fd640
+[INFO] [1623985822.692044]: [image_folder_publisher] Published ./../../rgbd_dataset_freiburg1_xyz/rgb/1305031105.511332.png
+[ WARN] [1623985822.746302346]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1623985822.746692403]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ INFO] [1623985822.752971587]: Received pose: 0x556bb05fd6d0
+[INFO] [1623985823.692135]: [image_folder_publisher] Published ./../../rgbd_dataset_freiburg1_xyz/rgb/1305031105.543282.png
+[ WARN] [1623985823.746360690]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1623985823.746458981]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ INFO] [1623985823.752894096]: Received pose: 0x556bb05fd760
+[INFO] [1623985824.692092]: [image_folder_publisher] Published ./../../rgbd_dataset_freiburg1_xyz/rgb/1305031105.575449.png
+[ WARN] [1623985824.744393132]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1623985824.744544870]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ INFO] [1623985824.751075370]: Received pose: 0x556bb05fd7f0
+[INFO] [1623985825.692190]: [image_folder_publisher] Published ./../../rgbd_dataset_freiburg1_xyz/rgb/1305031105.611378.png
+[ WARN] [1623985825.746812749]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1623985825.746901204]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ INFO] [1623985825.753246821]: Received pose: 0x556bb05fd880
+[INFO] [1623985826.692182]: [image_folder_publisher] Published ./../../rgbd_dataset_freiburg1_xyz/rgb/1305031105.643273.png
+[ WARN] [1623985826.745955124]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1623985826.746055144]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ INFO] [1623985826.752436952]: Received pose: 0x556bb05fd910
+[INFO] [1623985827.692005]: [image_folder_publisher] Published ./../../rgbd_dataset_freiburg1_xyz/rgb/1305031105.675166.png
+[ WARN] [1623985827.744420903]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1623985827.744516092]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ INFO] [1623985827.750895212]: Received pose: 0x556bb05fd9a0
+[INFO] [1623985828.691999]: [image_folder_publisher] Published ./../../rgbd_dataset_freiburg1_xyz/rgb/1305031105.711309.png
+[ WARN] [1623985828.745455979]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1623985828.745553336]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ INFO] [1623985828.751954865]: Received pose: 0x556bb05fda30
+[INFO] [1623985829.691944]: [image_folder_publisher] Published ./../../rgbd_dataset_freiburg1_xyz/rgb/1305031105.743312.png
+[ WARN] [1623985829.747051580]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1623985829.747149630]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ INFO] [1623985829.753459139]: Received pose: 0x556bb05fdac0
+[INFO] [1623985830.691937]: [image_folder_publisher] Published ./../../rgbd_dataset_freiburg1_xyz/rgb/1305031105.775339.png
+[ WARN] [1623985830.746028228]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1623985830.746755148]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ INFO] [1623985830.753066101]: Received pose: 0x556bb05fbb30
+[INFO] [1623985831.692108]: [image_folder_publisher] Published ./../../rgbd_dataset_freiburg1_xyz/rgb/1305031105.811283.png
+[ WARN] [1623985831.744452523]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1623985831.744551894]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ INFO] [1623985831.750923537]: Received pose: 0x556bb05fdb50
