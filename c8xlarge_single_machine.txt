@@ -1,0 +1,397 @@
+buntu@ip-172-31-29-200:~/catkin_ws$ roslaunch roscloud roscloud_orb_slam.launch 
+... logging to /home/ubuntu/.ros/log/aad3f640-d3ca-11eb-b2a8-ff57531b0737/roslaunch-ip-172-31-29-200-2535.log
+Checking log directory for disk usage. This may take a while.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+
+started roslaunch server http://ip-172-31-29-200:41451/
+
+SUMMARY
+========
+
+PARAMETERS
+ * /roscloud_node1/env_script: /home/ubuntu/catk...
+ * /roscloud_node1/instance_type: c4.8xlarge
+ * /roscloud_node1/launch_file: /home/ubuntu/catk...
+ * /rosdistro: noetic
+ * /rosversion: 1.15.9
+
+NODES
+  /
+    roscloud_node1 (roscloud/roscloud_launch.py)
+
+auto-starting new master
+process[master]: started with pid [2543]
+ROS_MASTER_URI=http://localhost:11311
+
+setting /run_id to aad3f640-d3ca-11eb-b2a8-ff57531b0737
+process[rosout-1]: started with pid [2553]
+started core service [/rosout]
+process[roscloud_node1-2]: started with pid [2556]
+/roscloud_node1
+start launching 1624415297.6381462
+-----BEGIN RSA PRIVATE KEY-----
+MIIEpAIBAAKCAQEAlHqfwA4I684aHgrbH8OaQtKSklJJecPpkZsRjVWq6TlG76+b
+tPr7sisBMsDdleoUeBKxeljzqJ54OlYgI2LUjQSS7ZfrNM3jRCfOvl6P6dFnoFiY
+mvS8KuIUB9n4k4i66RRLxNq1j/40M1ooEJi6WqY2GlpTiGFhuvmGmJioN0QsbdAa
+XTmYUcOd21xdAE278WiiYDO+UbCehOh1PdCl14/3+ZDd8Nloi2+3MInUz23s1fpj
+8YTL8uDcT/1U4Cm8YuZiQIdbAF00VGzXkk7Vf7ZQsDZ0wINBaPVjdNKwdBevIpd9
+hLX8fcgggAYvA9ir4pzb4x2IS1jl6f0QJv6k0wIDAQABAoIBAHxrvU5s9GDVVuFx
+62lUugHg/t4KgnO9Dg7ryOuMrCm/y4eyumIQJ7aHfvuOzqB/hSORVpPV0misUsdf
+wJKmkMKS4KSkt36KQTWtvfuctjATQCkH1OmUx9GPnYVuzHSlESubzFprg9XkCM43
+cHdn5FFuEsxGgNU59XF/A6D/24ZjGl12M8oK3AWF4m2lFGpG1wjWFkGHfc+5P7Al
+7pc/3I9zz0Gj5ZZRiHL5WYC+yeRI4NCmdXFn+c4EehVTn/5dMEtNMSJQk6I9KEOs
+90xtwP5N8Sq7xoDDc+wst+RegfNH/U/LxTd+rx563i3JHqspQMPcQ/xn/MEd1H42
+iCgjWQECgYEA4M/LbU/1rjOlI0DDm2O5ZRox4zy2ivTP3LUxRv6UIzdBCNFIthoo
+I2EFX1suHk+nn7YQT6ML00h5M+8wN7UuFiHnrYCCneBE8HSgg2Yl/8mHtx9BcITv
+fFQ9AJ4UeOcm2NtvX96fftMoobKV8bsl0P0hMqu7NEbKqCO79u9JZJMCgYEAqRPe
+F3Q3Tz4Kmj+RvsCiipW0jihNCCUj4qZXhfiJu8Ufg6DoGr0kajQcvH5KG60xUJON
+Aemz+vDDo0xKwPRJ8NqrDuMVaJSoDSAvsrEZtzJ9jKaXY6kMSPJyKj5DfzoIHR/W
+K9xGBqTOOBWl9NMK+e/RQ/JnRfaAzwbDvWbUJsECgYEAkKcD1QVjJsDSXBmbA0wq
+iZROT1HMfyLA8NmhqHW8aeButza6m3m/I+yUoWOxDA3i5JAodKWLwVpbqoAYPXAW
+BGWyheAvq1gX48SXV5UNlEVfTwQMflL7KbumONR+hcDuLREc28oKRHeoKEsZ0h3C
+WnPVvZ3kaeG3GnNLybr0NYMCgYEAgsd/ThzyezS99rmc/jL6hr9tPVgm3Vn8+982
+a8Xmo3rB+YqIfcY3WH6ei54TrHy2XGEE/KnMMRnx+WmVmNJcLxS0o3s6n/38TsrK
+mikqfu1q91QUXV3wxqvhapNmmg5FIGHzw1FKSPFJIVB9YXWsU88PysLA5vjYgUn2
+NZZIGwECgYAW0X3G+FJSgrC5sVm4nwlnx/m/cfABDBhge9VuShZ9vM4I/x35w8cY
+zQ1C4u2OntmoVQtUDiPijxCEghBq3kk9y+uqEGlUXD0Mrb3OwjIvxlWBrLmwTMrf
+h50vB7FzWChHU4WhenGalkBtTXNLBA6j5EyIVzIHDvLZQVZOPGnsCw==
+-----END RSA PRIVATE KEY-----
+Security Group Created sg-04aa00c0f5daf162b in vpc vpc-bea5b0d9.
+Ingress Successfully Set {'ResponseMetadata': {'RequestId': '21cc26fb-23b8-414a-9b4c-c6a2bf521681', 'HTTPStatusCode': 200, 'HTTPHeaders': {'x-amzn-requestid': '21cc26fb-23b8-414a-9b4c-c6a2bf521681', 'cache-control': 'no-cache, no-store', 'strict-transport-security': 'max-age=31536000; includeSubDomains', 'content-type': 'text/xml;charset=UTF-8', 'content-length': '718', 'date': 'Wed, 23 Jun 2021 02:28:18 GMT', 'server': 'AmazonEC2'}, 'RetryAttempts': 0}}
+security group id is ['sg-04aa00c0f5daf162b']
+Have created the instance:  [ec2.Instance(id='i-03aae9480f76a73f1')]
+type: c4.8xlarge
+wait for launching to finish
+launch finished
+public ip of ec2: 13.57.208.81
+robot public address is  54.183.159.64
+{'pkg="roscloud"'}
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+docker.io is already the newest version (19.03.8-0ubuntu1.20.04.2).
+The following packages were automatically installed and are no longer required:
+  python-pip-whl python3-wheel
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 100 not upgraded.
+posestamped: Pulling from debbieliang/ros_open
+a70d879fa598: Pull complete 
+c4394a92d1f8: Pull complete 
+10e6159c56c0: Pull complete 
+ce7c5d2d7a66: Pull complete 
+bccd2266e6de: Pull complete 
+297407665153: Pull complete 
+aeea5a306422: Pull complete 
+1edc3a0a092c: Pull complete 
+b3697162c286: Pull complete 
+4a97757554a3: Pull complete 
+45dce2891549: Pull complete 
+7c0ad59c3114: Pull complete 
+9f5df55dde3e: Pull complete 
+195ec36e367e: Pull complete 
+67315f309f8b: Pull complete 
+cd94cd665c0c: Pull complete 
+6367c86751a5: Pull complete 
+c270329dbb73: Pull complete 
+637ba4e0c98e: Pull complete 
+Digest: sha256:28096ea381993693d1213ed31ed17e07cb067510266cda879d4b639841360fe1
+Status: Downloaded newer image for debbieliang/ros_open:posestamped
+docker.io/debbieliang/ros_open:posestamped
+0c2c0cb29fea290914421a39f93820fa3c1ff1500b2d8c52a155922960ff9284
+01b23d2b9cc40b2008bc3cd9f6c2ee61f2f425cc7538d72a347b3889c7a4c2ae
+34db56579dcf5d191e442d5fa5fa140ed84a2f40ded86302ca914f8ac16f499f
+... logging to /root/.ros/log/77d6942c-d3cb-11eb-976f-06b03f257fb7/roslaunch-ip-172-31-7-246-1.log
+Checking log directory for disk usage. This may take a while.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+
+started roslaunch server http://ip-172-31-7-246:40299/
+
+SUMMARY
+========
+
+PARAMETERS
+ * /orb_slam2_mono/ORBextractor/iniThFAST: 20
+ * /orb_slam2_mono/ORBextractor/minThFAST: 7
+ * /orb_slam2_mono/ORBextractor/nFeatures: 2000
+ * /orb_slam2_mono/ORBextractor/nLevels: 8
+ * /orb_slam2_mono/ORBextractor/scaleFactor: 1.2
+ * /orb_slam2_mono/camera_cx: 311.43603515625
+ * /orb_slam2_mono/camera_cy: 248.0950164794922
+ * /orb_slam2_mono/camera_fps: 30
+ * /orb_slam2_mono/camera_frame_id: camera_link
+ * /orb_slam2_mono/camera_fx: 632.7927856445312
+ * /orb_slam2_mono/camera_fy: 626.8605346679688
+ * /orb_slam2_mono/camera_k1: -0.09097914397716522
+ * /orb_slam2_mono/camera_k2: 0.06503549218177795
+ * /orb_slam2_mono/camera_k3: 0.0
+ * /orb_slam2_mono/camera_p1: 0.000849052332341671
+ * /orb_slam2_mono/camera_p2: 0.001785792293958366
+ * /orb_slam2_mono/camera_rgb_encoding: True
+ * /orb_slam2_mono/load_calibration_from_cam: False
+ * /orb_slam2_mono/load_map: False
+ * /orb_slam2_mono/localize_only: False
+ * /orb_slam2_mono/map_file: map.bin
+ * /orb_slam2_mono/min_num_kf_in_map: 5
+ * /orb_slam2_mono/pointcloud_frame_id: map
+ * /orb_slam2_mono/publish_pointcloud: True
+ * /orb_slam2_mono/publish_pose: True
+ * /orb_slam2_mono/reset_map: False
+ * /orb_slam2_mono/voc_file: /orb_slam_2_ros/o...
+ * /rosdistro: noetic
+ * /rosversion: 1.15.9
+
+NODES
+  /
+    orb_slam2_mono (orb_slam2_ros/orb_slam2_ros_mono)
+
+ROS_MASTER_URI=http://localhost:11311
+
+process[orb_slam2_mono-1]: started with pid [49]
+
+ORB-SLAM2 Copyright (C) 2014-2016 Raul Mur-Artal, University of Zaragoza.
+This program comes with ABSOLUTELY NO WARRANTY;
+This is free software, and you are welcome to redistribute it
+under certain conditions. See LICENSE.txt.
+
+OpenCV version : 4.2.0
+Major version : 4
+Minor version : 2
+Subminor version : 0
+Input sensor was set to: Monocular
+
+Loading ORB Vocabulary.
+Vocabulary loaded!
+
+
+Camera Parameters: 
+- fx: 632.793
+- fy: 626.861
+- cx: 311.436
+- cy: 248.095
+- k1: -0.0909791
+- k2: 0.0650355
+- p1: 0.000849052
+- p2: 0.00178579
+- fps: 30
+- bf: 4.59163e-41
+- color order: RGB (ignored if grayscale)
+
+ORB Extractor Parameters: 
+- Number of Features: 2000
+- Scale Levels: 8
+- Scale Factor: 1.2
+- Initial Fast Threshold: 20
+- Minimum Fast Threshold: 7
+Enable localization only: false
+Map point vector is empty!
+Map point vector is empty!
+Map point vector is empty!
+Map point vector is empty!
+Map point vector is empty!
+Map point vector is empty!
+Map point vector is empty!
+Map point vector is empty!
+Map point vector is empty!
+Map point vector is empty!
+Map point vector is empty!
+Map point vector is empty!
+Map point vector is empty!
+Map point vector is empty!
+Map point vector is empty!
+Map point vector is empty!
+Map point vector is empty!
+Map point vector is empty!
+Map point vector is empty!
+Map point vector is empty!
+Map point vector is empty!
+Map point vector is empty!
+Map point vector is empty!
+Map point vector is empty!
+Map point vector is empty!
+Map point vector is empty!
+Map point vector is empty!
+Map point vector is empty!
+Map point vector is empty!
+New Map created with 170 points
+[ WARN] [1624415672.051583462]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415672.443434361]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415672.973282327]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415672.973360553]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415673.959745062]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415673.959832161]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415674.959716389]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415674.959799632]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415675.961610016]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415675.961710995]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415676.964209120]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415676.964291056]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415677.967614830]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415677.967700538]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415678.968421855]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415678.968528982]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415679.967128587]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415679.967192125]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415680.964533902]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415680.964621744]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415681.966797645]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415681.966886624]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415682.968623785]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415682.968739971]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415683.981060444]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415683.981152052]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415684.973456232]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415684.973553149]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415685.968254776]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415685.968344418]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415686.973470737]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415686.973576006]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415687.974062552]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415687.974157540]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415688.971229448]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415688.971321685]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415689.974014926]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415689.974095297]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415690.970818634]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415690.970883222]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415691.967415014]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415691.967481730]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415692.970294993]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415692.970394209]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415693.970640975]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415693.970765600]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415694.971107941]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415694.971200461]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415695.971622407]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415695.971715769]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415696.970099705]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415696.970192951]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415697.968333040]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415697.968416540]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415698.971392716]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415698.971491358]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415699.971171394]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415699.971275171]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415700.968113728]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415700.968179407]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415701.968572701]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415701.968672825]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415702.968117128]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415702.968203439]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415703.970107390]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415703.970198936]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415704.970609696]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415704.970749328]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415705.972654397]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415705.972742498]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415706.968748697]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415706.968834224]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415707.969754218]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415707.969847256]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415708.971443881]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415708.971538738]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415709.968320905]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415709.968404728]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415710.969389984]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415710.969476464]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415711.972406125]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415711.972505596]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415712.971694347]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415712.971794169]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415713.972850504]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415713.972939776]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415714.966848623]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415714.966923844]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415715.967521700]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415715.967612920]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415716.964986665]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415716.965073514]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415717.965310222]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415717.965380225]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415718.967972988]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415718.968078856]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415719.965999166]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415719.966099584]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415720.966280603]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415720.966380781]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415721.964682769]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415721.964773086]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415722.966907143]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415722.966988195]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415723.966895422]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415723.966977412]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415724.965418639]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415724.965515641]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415725.963097025]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415725.963159899]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415726.963318543]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415726.963408949]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415727.966840424]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415727.966949412]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415728.966010079]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415728.966119236]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415729.967359433]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415729.967467373]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415730.964044670]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415730.964120420]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415731.961992566]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415731.962080185]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415732.966273012]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415732.966378501]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415733.967007049]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415733.967082290]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415734.968064474]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415734.968136047]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415735.971320865]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415735.971417316]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415736.972723599]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415736.972818896]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415737.972610237]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415737.972714523]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415738.970140876]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415738.970229797]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+^C[roscloud_node1-2] killing on exit
+^C[ WARN] [1624415739.971201391]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415739.971291340]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415740.970370529]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415740.970463254]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+^C[ WARN] [1624415741.969483377]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415741.969566527]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415742.972126627]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415742.972212382]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415743.974178755]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415743.974265546]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415744.980445194]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415744.980581173]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415745.977296855]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415745.977406891]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415746.981607725]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415746.981676648]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415747.970709810]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415747.970775888]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415748.973079553]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415748.973173475]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415749.972805071]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415749.972883257]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415750.971547085]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415750.971648321]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415751.973772441]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415751.973863738]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415752.971021670]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415752.971124260]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415753.982154317]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415753.982253970]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[roscloud_node1-2] escalating to SIGTERM
+[ WARN] [1624415754.970292857]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415754.970381126]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415755.970744348]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624415755.970816475]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+^C^@[roscloud_node1-2] escalating to SIGKILL
+[rosout-1] killing on exit
+^C[master] killing on exit
+^CShutdown errors:
+ * process[roscloud_node1-2, pid 2556]: required SIGKILL. May still be running.
+shutting down processing monitor...
+... shutting down processing monitor complete
+done

@@ -1,0 +1,730 @@
+ubuntu@ip-172-31-29-200:~/catkin_ws$ roslaunch roscloud roscloud_orb_slam.launch 
+... logging to /home/ubuntu/.ros/log/0d36b568-d3ce-11eb-b2a8-ff57531b0737/roslaunch-ip-172-31-29-200-2885.log
+Checking log directory for disk usage. This may take a while.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+
+started roslaunch server http://ip-172-31-29-200:39265/
+
+SUMMARY
+========
+
+PARAMETERS
+ * /roscloud_node1/env_script: /home/ubuntu/catk...
+ * /roscloud_node1/instance_type: t2.medium
+ * /roscloud_node1/launch_file: /home/ubuntu/catk...
+ * /rosdistro: noetic
+ * /rosversion: 1.15.9
+
+NODES
+  /
+    roscloud_node1 (roscloud/roscloud_launch.py)
+
+auto-starting new master
+process[master]: started with pid [2893]
+ROS_MASTER_URI=http://localhost:11311
+
+setting /run_id to 0d36b568-d3ce-11eb-b2a8-ff57531b0737
+process[rosout-1]: started with pid [2903]
+started core service [/rosout]
+process[roscloud_node1-2]: started with pid [2906]
+/roscloud_node1
+start launching 1624416751.1942017
+-----BEGIN RSA PRIVATE KEY-----
+MIIEogIBAAKCAQEAi+JioSU3i0WkzyBXVLDB4mMTJT5R3CKKKdjvcbH1HvDac5oV
+DzN2u089vqJzfdYgmICOwA3S/HdF5TCzG98cM1G3avx2EszJe0sFwHZ6RrnpRPCT
+V1CJyknY5GhNXmrqIFldMibDiyJ9KsVETJolPPH6ssTa7VcHTG3bkCNiuEOIWmQ5
+1cHU5kkfz1KwSnmXxi/FwIpe/dkM95c7J+GAur6qBvA5OCNK37K9+KucRdkJvPQA
+yyAqESPy0A1JoS0yxWsX4z9+rLgp/06RFVKARhWgG7J0hBjJqS+kOS5AtgxhF/pr
+s2EFWY4mto8NHF/s2ajj3Xa0Jo/8n7uLF7yVbQIDAQABAoIBAAHqIlF0UfNNC7lu
+BuP4215+3qc22CX8LwntlzFmLyWyRDsq07j2ilx79Ctky9HgGWgc8lc8mTOtaj59
+0SXDgv5M0wba177gIK3YVAbTWE8ZglDYPhwG1Sv4oMhXiR+OtQ+mSXlDQI/p8+6e
+7pVh0rqn0TebLCftdgMcydGKOnKtLMFq/vkQmSrm6Bp+RXYv0PyUipsR+uiEMafn
+pGKsCajhwzk8rgAWpRArGuNhOnAdgDRUjc87rA8OdCdVmEXwzMXo+NTxdsA8beaE
+pSQmUnpVWfzNGuddX2VtYCXJtfOHUmXxWroKKrOx9m8Da7d3Ku3jrcymOP4XWHxJ
+eNn8ToECgYEAzJnrceU2QMP91KH9sg+xzsVDm/q6MBphEqWiR1d4D1OJqeI031u+
+stSyBoLDyYZ9qmhnbzG5i5l0wZQ0FoEVJ1lsluTiF8PAaljlYGVIDd73/1tL/V8b
+r+nMbuaE52bMTm6yMUu79nha6o7m284hvHEa0oODGciyE6jNpbW5E+ECgYEArwZ2
+9QPKA5S3dQQgx02JhPdajunkKsBV93Afrc1v6ZPkxjVP+Xabocy9D8t9tUDxr0oO
+9Ggs4sErkJ3Pm7Z6BF6nPxdlMel8tD/MUdolqnBMDkzJ3gnMFKrnd8YAeBBioG1r
+bRfDq1Dit3PmM1X7SzgmRcVBDCZnTmKJHJ548w0CgYACdC4gtZELAc6/iBnU0t9d
+DXycGEu3W/miEZ56oI/uDyBtiyr7KsyEtIxWC6dxeU10h8AF02DYTcTatX5SbsXk
+LOxieuhDRLPAEsTdfRl6IRx0UZH9vfBFEdbD1bvuUotMvYMhmDju4c6lVYVrSXOa
+IPkjYTRnUMLh/XpJ7H4FwQKBgACqPJ93sTfMQ9os9tbrA3++1NhAKT7EVk9HXMdz
+RV6U0kSyhShEfBjkRz+dHVAn/AMXe/EPyEPgSgMVpmlICzSjC22g8CB9a5zftS4G
+bygznwZa4lV2ohDeCV0aInxSS52ibMsQUQ0AlKvvw8skI31IrFSNiE68gp34n968
+92atAoGACk1Xv9ZK7TS+oX6DN/PY6pqMaYz1mZFGl3ckQ6URXKr3+su5o/27pjsT
+kwSUnbv+VPcqJdRO60lv7lYi6EsNqZaHGEVdymeLymoKPZvF7CrxAzwH2mnrittv
+IUhfcCv5xkQ+8WtvpgYeWontJlN0pBf71K7zGL4FbDC5a5GWdvA=
+-----END RSA PRIVATE KEY-----
+Security Group Created sg-08c07a371b4436acd in vpc vpc-bea5b0d9.
+Ingress Successfully Set {'ResponseMetadata': {'RequestId': '2904a09d-5a69-4b4a-9c23-2ba20c82d25a', 'HTTPStatusCode': 200, 'HTTPHeaders': {'x-amzn-requestid': '2904a09d-5a69-4b4a-9c23-2ba20c82d25a', 'cache-control': 'no-cache, no-store', 'strict-transport-security': 'max-age=31536000; includeSubDomains', 'content-type': 'text/xml;charset=UTF-8', 'content-length': '718', 'date': 'Wed, 23 Jun 2021 02:52:31 GMT', 'server': 'AmazonEC2'}, 'RetryAttempts': 0}}
+security group id is ['sg-08c07a371b4436acd']
+Have created the instance:  [ec2.Instance(id='i-02e5dc82ae1438354')]
+type: t2.medium
+wait for launching to finish
+launch finished
+public ip of ec2: 54.219.184.97
+robot public address is  54.183.159.64
+{'pkg="roscloud"'}
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+docker.io is already the newest version (19.03.8-0ubuntu1.20.04.2).
+The following packages were automatically installed and are no longer required:
+  python-pip-whl python3-wheel
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 100 not upgraded.
+posestamped: Pulling from debbieliang/ros_open
+a70d879fa598: Pull complete 
+c4394a92d1f8: Pull complete 
+10e6159c56c0: Pull complete 
+ce7c5d2d7a66: Pull complete 
+bccd2266e6de: Pull complete 
+297407665153: Pull complete 
+aeea5a306422: Pull complete 
+1edc3a0a092c: Pull complete 
+b3697162c286: Pull complete 
+4a97757554a3: Pull complete 
+45dce2891549: Pull complete 
+7c0ad59c3114: Pull complete 
+9f5df55dde3e: Pull complete 
+195ec36e367e: Pull complete 
+67315f309f8b: Pull complete 
+cd94cd665c0c: Pull complete 
+6367c86751a5: Pull complete 
+c270329dbb73: Pull complete 
+637ba4e0c98e: Pull complete 
+Digest: sha256:28096ea381993693d1213ed31ed17e07cb067510266cda879d4b639841360fe1
+Status: Downloaded newer image for debbieliang/ros_open:posestamped
+docker.io/debbieliang/ros_open:posestamped
+194dd8f9ea70ea9775ea8dd8ca1b21d17e96b666de7cc22866ced6bb17fb98f7
+b89dce16bb95ff3dd4e5451228d3e46003e12ccbe96a6d5b3441ec8e8cbdace3
+e9c51e13023b7d5e5ea91afed46fad54cd10e5f0530d120b4f3f7b05f983e27f
+... logging to /root/.ros/log/6d8caa84-d3cf-11eb-b25c-02714bc07bf1/roslaunch-ip-172-31-16-94-1.log
+Checking log directory for disk usage. This may take a while.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+
+started roslaunch server http://ip-172-31-16-94:46209/
+
+SUMMARY
+========
+
+PARAMETERS
+ * /orb_slam2_mono/ORBextractor/iniThFAST: 20
+ * /orb_slam2_mono/ORBextractor/minThFAST: 7
+ * /orb_slam2_mono/ORBextractor/nFeatures: 2000
+ * /orb_slam2_mono/ORBextractor/nLevels: 8
+ * /orb_slam2_mono/ORBextractor/scaleFactor: 1.2
+ * /orb_slam2_mono/camera_cx: 311.43603515625
+ * /orb_slam2_mono/camera_cy: 248.0950164794922
+ * /orb_slam2_mono/camera_fps: 30
+ * /orb_slam2_mono/camera_frame_id: camera_link
+ * /orb_slam2_mono/camera_fx: 632.7927856445312
+ * /orb_slam2_mono/camera_fy: 626.8605346679688
+ * /orb_slam2_mono/camera_k1: -0.09097914397716522
+ * /orb_slam2_mono/camera_k2: 0.06503549218177795
+ * /orb_slam2_mono/camera_k3: 0.0
+ * /orb_slam2_mono/camera_p1: 0.000849052332341671
+ * /orb_slam2_mono/camera_p2: 0.001785792293958366
+ * /orb_slam2_mono/camera_rgb_encoding: True
+ * /orb_slam2_mono/load_calibration_from_cam: False
+ * /orb_slam2_mono/load_map: False
+ * /orb_slam2_mono/localize_only: False
+ * /orb_slam2_mono/map_file: map.bin
+ * /orb_slam2_mono/min_num_kf_in_map: 5
+ * /orb_slam2_mono/pointcloud_frame_id: map
+ * /orb_slam2_mono/publish_pointcloud: True
+ * /orb_slam2_mono/publish_pose: True
+ * /orb_slam2_mono/reset_map: False
+ * /orb_slam2_mono/voc_file: /orb_slam_2_ros/o...
+ * /rosdistro: noetic
+ * /rosversion: 1.15.9
+
+NODES
+  /
+    orb_slam2_mono (orb_slam2_ros/orb_slam2_ros_mono)
+
+auto-starting new master
+process[master]: started with pid [49]
+ERROR: Unable to start XML-RPC server, port 11311 is already in use
+Exception ignored in thread started by: <bound method XmlRpcNode.run of <rosgraph.xmlrpc.XmlRpcNode object at 0x7fcdf059c190>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosgraph/xmlrpc.py", line 225, in run
+    self._run()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosgraph/xmlrpc.py", line 294, in _run
+    self._run_init()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosgraph/xmlrpc.py", line 244, in _run_init
+    self.server = ThreadingXMLRPCServer((bind_address, port), log_requests)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosgraph/xmlrpc.py", line 122, in __init__
+    SimpleXMLRPCServer.__init__(self, addr, SilenceableXMLRPCRequestHandler, log_requests)
+  File "/usr/lib/python3.8/xmlrpc/server.py", line 605, in __init__
+ROS_MASTER_URI=http://localhost:11311
+
+setting /run_id to 6d8caa84-d3cf-11eb-b25c-02714bc07bf1
+    socketserver.TCPServer.__init__(self, addr, requestHandler, bind_and_activate)
+  File "/usr/lib/python3.8/socketserver.py", line 452, in __init__
+    self.server_bind()
+  File "/usr/lib/python3.8/socketserver.py", line 466, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 98] Address already in use
+process[rosout-1]: started with pid [55]
+started core service [/rosout]
+process[orb_slam2_mono-2]: started with pid [59]
+[ WARN] [1624417342.836941960]: Shutdown request received.
+[ WARN] [1624417342.837002840]: Reason given for shutdown: [[/rosout] Reason: new node registered with same name]
+[ WARN] [1624417342.851078024]: Shutdown request received.
+[ WARN] [1624417342.851107498]: Reason given for shutdown: [[/rosout] Reason: new node registered with same name]
+[rosout-1] process has finished cleanly
+log file: /root/.ros/log/6d8caa84-d3cf-11eb-b25c-02714bc07bf1/rosout-1*.log
+[rosout-1] restarting process
+process[rosout-1]: started with pid [60]
+[ WARN] [1624417343.433469696]: Shutdown request received.
+[ WARN] [1624417343.433510733]: Reason given for shutdown: [[/rosout] Reason: new node registered with same name]
+[rosout-1] process has finished cleanly
+log file: /root/.ros/log/6d8caa84-d3cf-11eb-b25c-02714bc07bf1/rosout-1*.log
+[rosout-1] restarting process
+process[rosout-1]: started with pid [64]
+[ WARN] [1624417344.148354989]: Shutdown request received.
+[ WARN] [1624417344.148587977]: Reason given for shutdown: [[/rosout] Reason: new node registered with same name]
+[rosout-1] process has finished cleanly
+log file: /root/.ros/log/6d8caa84-d3cf-11eb-b25c-02714bc07bf1/rosout-1*.log
+[rosout-1] restarting process
+process[rosout-1]: started with pid [68]
+[ WARN] [1624417344.864161328]: Shutdown request received.
+[ WARN] [1624417344.864205109]: Reason given for shutdown: [[/rosout] Reason: new node registered with same name]
+[rosout-1] process has finished cleanly
+log file: /root/.ros/log/6d8caa84-d3cf-11eb-b25c-02714bc07bf1/rosout-1*.log
+[rosout-1] restarting process
+process[rosout-1]: started with pid [72]
+
+ORB-SLAM2 Copyright (C) 2014-2016 Raul Mur-Artal, University of Zaragoza.
+This program comes with ABSOLUTELY NO WARRANTY;
+This is free software, and you are welcome to redistribute it
+under certain conditions. See LICENSE.txt.
+
+OpenCV version : 4.2.0
+Major version : 4
+Minor version : 2
+Subminor version : 0
+Input sensor was set to: Monocular
+
+Loading ORB Vocabulary.
+Vocabulary loaded!
+
+
+Camera Parameters: 
+- fx: 632.793
+- fy: 626.861
+- cx: 311.436
+- cy: 248.095
+- k1: -0.0909791
+- k2: 0.0650355
+- p1: 0.000849052
+- p2: 0.00178579
+- fps: 30
+- bf: 4.59121e-41
+- color order: RGB (ignored if grayscale)
+
+ORB Extractor Parameters: 
+- Number of Features: 2000
+- Scale Levels: 8
+- Scale Factor: 1.2
+- Initial Fast Threshold: 20
+- Minimum Fast Threshold: 7
+Enable localization only: false
+[ WARN] [1624417346.208980543]: Shutdown request received.
+[ WARN] [1624417346.209026652]: Reason given for shutdown: [[/rosout] Reason: new node registered with same name]
+[rosout-1] process has finished cleanly
+log file: /root/.ros/log/6d8caa84-d3cf-11eb-b25c-02714bc07bf1/rosout-1*.log
+[rosout-1] restarting process
+process[rosout-1]: started with pid [83]
+[ WARN] [1624417347.239107268]: Shutdown request received.
+[ WARN] [1624417347.239163706]: Reason given for shutdown: [[/rosout] Reason: new node registered with same name]
+[rosout-1] process has finished cleanly
+log file: /root/.ros/log/6d8caa84-d3cf-11eb-b25c-02714bc07bf1/rosout-1*.log
+[rosout-1] restarting process
+process[rosout-1]: started with pid [87]
+[ WARN] [1624417347.552556381]: Shutdown request received.
+[ WARN] [1624417347.552612594]: Reason given for shutdown: [[/rosout] Reason: new node registered with same name]
+[rosout-1] process has finished cleanly
+log file: /root/.ros/log/6d8caa84-d3cf-11eb-b25c-02714bc07bf1/rosout-1*.log
+[rosout-1] restarting process
+process[rosout-1]: started with pid [91]
+Map point vector is empty!
+[ WARN] [1624417348.095542464]: Shutdown request received.
+[ WARN] [1624417348.095583439]: Reason given for shutdown: [[/rosout] Reason: new node registered with same name]
+[rosout-1] process has finished cleanly
+log file: /root/.ros/log/6d8caa84-d3cf-11eb-b25c-02714bc07bf1/rosout-1*.log
+[rosout-1] restarting process
+process[rosout-1]: started with pid [96]
+[ WARN] [1624417348.578418927]: Shutdown request received.
+[ WARN] [1624417348.578461144]: Reason given for shutdown: [[/rosout] Reason: new node registered with same name]
+[rosout-1] process has finished cleanly
+log file: /root/.ros/log/6d8caa84-d3cf-11eb-b25c-02714bc07bf1/rosout-1*.log
+[rosout-1] restarting process
+process[rosout-1]: started with pid [100]
+Map point vector is empty!
+[ WARN] [1624417349.196611791]: Shutdown request received.
+[ WARN] [1624417349.196654602]: Reason given for shutdown: [[/rosout] Reason: new node registered with same name]
+[rosout-1] process has finished cleanly
+log file: /root/.ros/log/6d8caa84-d3cf-11eb-b25c-02714bc07bf1/rosout-1*.log
+[rosout-1] restarting process
+process[rosout-1]: started with pid [106]
+[ WARN] [1624417349.410479576]: Shutdown request received.
+[ WARN] [1624417349.410523522]: Reason given for shutdown: [[/rosout] Reason: new node registered with same name]
+[rosout-1] process has finished cleanly
+log file: /root/.ros/log/6d8caa84-d3cf-11eb-b25c-02714bc07bf1/rosout-1*.log
+[rosout-1] restarting process
+process[rosout-1]: started with pid [110]
+[ WARN] [1624417349.713554883]: Shutdown request received.
+[ WARN] [1624417349.713936127]: Reason given for shutdown: [[/rosout] Reason: new node registered with same name]
+[rosout-1] process has finished cleanly
+log file: /root/.ros/log/6d8caa84-d3cf-11eb-b25c-02714bc07bf1/rosout-1*.log
+[rosout-1] restarting process
+process[rosout-1]: started with pid [114]
+[ WARN] [1624417349.938569665]: Shutdown request received.
+[ WARN] [1624417349.938752411]: Reason given for shutdown: [[/rosout] Reason: new node registered with same name]
+Map point vector is empty!
+[rosout-1] process has finished cleanly
+log file: /root/.ros/log/6d8caa84-d3cf-11eb-b25c-02714bc07bf1/rosout-1*.log
+[rosout-1] restarting process
+process[rosout-1]: started with pid [120]
+[ WARN] [1624417350.232204421]: Shutdown request received.
+[ WARN] [1624417350.232252676]: Reason given for shutdown: [[/rosout] Reason: new node registered with same name]
+[rosout-1] process has finished cleanly
+log file: /root/.ros/log/6d8caa84-d3cf-11eb-b25c-02714bc07bf1/rosout-1*.log
+[rosout-1] restarting process
+process[rosout-1]: started with pid [124]
+[ WARN] [1624417350.858452517]: Shutdown request received.
+[ WARN] [1624417350.858493947]: Reason given for shutdown: [[/rosout] Reason: new node registered with same name]
+Map point vector is empty!
+[rosout-1] process has finished cleanly
+log file: /root/.ros/log/6d8caa84-d3cf-11eb-b25c-02714bc07bf1/rosout-1*.log
+[rosout-1] restarting process
+process[rosout-1]: started with pid [130]
+[ WARN] [1624417351.565079400]: Shutdown request received.
+[ WARN] [1624417351.565123077]: Reason given for shutdown: [[/rosout] Reason: new node registered with same name]
+[rosout-1] process has finished cleanly
+log file: /root/.ros/log/6d8caa84-d3cf-11eb-b25c-02714bc07bf1/rosout-1*.log
+[rosout-1] restarting process
+process[rosout-1]: started with pid [134]
+[ WARN] [1624417351.976374184]: Shutdown request received.
+[ WARN] [1624417351.976422016]: Reason given for shutdown: [[/rosout] Reason: new node registered with same name]
+Map point vector is empty!
+[rosout-1] process has finished cleanly
+log file: /root/.ros/log/6d8caa84-d3cf-11eb-b25c-02714bc07bf1/rosout-1*.log
+[rosout-1] restarting process
+process[rosout-1]: started with pid [140]
+[ WARN] [1624417352.691756842]: Shutdown request received.
+[ WARN] [1624417352.691797643]: Reason given for shutdown: [[/rosout] Reason: new node registered with same name]
+[rosout-1] process has finished cleanly
+log file: /root/.ros/log/6d8caa84-d3cf-11eb-b25c-02714bc07bf1/rosout-1*.log
+[rosout-1] restarting process
+process[rosout-1]: started with pid [144]
+Map point vector is empty!
+[ WARN] [1624417353.405686848]: Shutdown request received.
+[ WARN] [1624417353.405729947]: Reason given for shutdown: [[/rosout] Reason: new node registered with same name]
+[rosout-1] process has finished cleanly
+log file: /root/.ros/log/6d8caa84-d3cf-11eb-b25c-02714bc07bf1/rosout-1*.log
+[rosout-1] restarting process
+process[rosout-1]: started with pid [150]
+[ WARN] [1624417353.937569698]: Shutdown request received.
+[ WARN] [1624417353.938037927]: Reason given for shutdown: [[/rosout] Reason: new node registered with same name]
+Map point vector is empty!
+[rosout-1] process has finished cleanly
+log file: /root/.ros/log/6d8caa84-d3cf-11eb-b25c-02714bc07bf1/rosout-1*.log
+[rosout-1] restarting process
+process[rosout-1]: started with pid [156]
+[ WARN] [1624417354.566978448]: Shutdown request received.
+[ WARN] [1624417354.567017880]: Reason given for shutdown: [[/rosout] Reason: new node registered with same name]
+[rosout-1] process has finished cleanly
+log file: /root/.ros/log/6d8caa84-d3cf-11eb-b25c-02714bc07bf1/rosout-1*.log
+[rosout-1] restarting process
+process[rosout-1]: started with pid [160]
+Map point vector is empty!
+[ WARN] [1624417355.196773736]: Shutdown request received.
+[ WARN] [1624417355.196833211]: Reason given for shutdown: [[/rosout] Reason: new node registered with same name]
+[rosout-1] process has finished cleanly
+log file: /root/.ros/log/6d8caa84-d3cf-11eb-b25c-02714bc07bf1/rosout-1*.log
+[rosout-1] restarting process
+process[rosout-1]: started with pid [166]
+[ WARN] [1624417355.711967851]: Shutdown request received.
+[ WARN] [1624417355.712026051]: Reason given for shutdown: [[/rosout] Reason: new node registered with same name]
+[rosout-1] process has finished cleanly
+log file: /root/.ros/log/6d8caa84-d3cf-11eb-b25c-02714bc07bf1/rosout-1*.log
+[rosout-1] restarting process
+process[rosout-1]: started with pid [170]
+Map point vector is empty!
+[ WARN] [1624417356.226217017]: Shutdown request received.
+[ WARN] [1624417356.226260401]: Reason given for shutdown: [[/rosout] Reason: new node registered with same name]
+[rosout-1] process has finished cleanly
+log file: /root/.ros/log/6d8caa84-d3cf-11eb-b25c-02714bc07bf1/rosout-1*.log
+[rosout-1] restarting process
+process[rosout-1]: started with pid [176]
+[ WARN] [1624417356.772937524]: Shutdown request received.
+[ WARN] [1624417356.772984820]: Reason given for shutdown: [[/rosout] Reason: new node registered with same name]
+[rosout-1] process has finished cleanly
+log file: /root/.ros/log/6d8caa84-d3cf-11eb-b25c-02714bc07bf1/rosout-1*.log
+[rosout-1] restarting process
+process[rosout-1]: started with pid [180]
+Map point vector is empty!
+[ WARN] [1624417357.001434533]: Shutdown request received.
+[ WARN] [1624417357.001499277]: Reason given for shutdown: [[/rosout] Reason: new node registered with same name]
+[rosout-1] process has finished cleanly
+log file: /root/.ros/log/6d8caa84-d3cf-11eb-b25c-02714bc07bf1/rosout-1*.log
+[rosout-1] restarting process
+process[rosout-1]: started with pid [186]
+[ WARN] [1624417357.631374817]: Shutdown request received.
+[ WARN] [1624417357.631417006]: Reason given for shutdown: [[/rosout] Reason: new node registered with same name]
+[rosout-1] process has finished cleanly
+log file: /root/.ros/log/6d8caa84-d3cf-11eb-b25c-02714bc07bf1/rosout-1*.log
+[rosout-1] restarting process
+process[rosout-1]: started with pid [190]
+Map point vector is empty!
+[ WARN] [1624417358.046219971]: Shutdown request received.
+[ WARN] [1624417358.046308172]: Reason given for shutdown: [[/rosout] Reason: new node registered with same name]
+[rosout-1] process has finished cleanly
+log file: /root/.ros/log/6d8caa84-d3cf-11eb-b25c-02714bc07bf1/rosout-1*.log
+[rosout-1] restarting process
+process[rosout-1]: started with pid [196]
+[ WARN] [1624417358.464077349]: Shutdown request received.
+[ WARN] [1624417358.464126620]: Reason given for shutdown: [[/rosout] Reason: new node registered with same name]
+[rosout-1] process has finished cleanly
+log file: /root/.ros/log/6d8caa84-d3cf-11eb-b25c-02714bc07bf1/rosout-1*.log
+[rosout-1] restarting process
+process[rosout-1]: started with pid [200]
+[ WARN] [1624417358.704568008]: Shutdown request received.
+[ WARN] [1624417358.704627068]: Reason given for shutdown: [[/rosout] Reason: new node registered with same name]
+[rosout-1] process has finished cleanly
+log file: /root/.ros/log/6d8caa84-d3cf-11eb-b25c-02714bc07bf1/rosout-1*.log
+[rosout-1] restarting process
+process[rosout-1]: started with pid [204]
+[ WARN] [1624417359.013026674]: Shutdown request received.
+[ WARN] [1624417359.013520610]: Reason given for shutdown: [[/rosout] Reason: new node registered with same name]
+Map point vector is empty!
+[rosout-1] process has finished cleanly
+log file: /root/.ros/log/6d8caa84-d3cf-11eb-b25c-02714bc07bf1/rosout-1*.log
+[rosout-1] restarting process
+process[rosout-1]: started with pid [210]
+[ WARN] [1624417359.431698500]: Shutdown request received.
+[ WARN] [1624417359.431738502]: Reason given for shutdown: [[/rosout] Reason: new node registered with same name]
+[rosout-1] process has finished cleanly
+log file: /root/.ros/log/6d8caa84-d3cf-11eb-b25c-02714bc07bf1/rosout-1*.log
+[rosout-1] restarting process
+process[rosout-1]: started with pid [214]
+[ WARN] [1624417359.746403669]: Shutdown request received.
+[ WARN] [1624417359.746464280]: Reason given for shutdown: [[/rosout] Reason: new node registered with same name]
+Map point vector is empty!
+[rosout-1] process has finished cleanly
+log file: /root/.ros/log/6d8caa84-d3cf-11eb-b25c-02714bc07bf1/rosout-1*.log
+[rosout-1] restarting process
+process[rosout-1]: started with pid [220]
+[ WARN] [1624417360.361349644]: Shutdown request received.
+[ WARN] [1624417360.361410022]: Reason given for shutdown: [[/rosout] Reason: new node registered with same name]
+[rosout-1] process has finished cleanly
+log file: /root/.ros/log/6d8caa84-d3cf-11eb-b25c-02714bc07bf1/rosout-1*.log
+[rosout-1] restarting process
+process[rosout-1]: started with pid [224]
+[ WARN] [1624417360.676187059]: Shutdown request received.
+[ WARN] [1624417360.676247417]: Reason given for shutdown: [[/rosout] Reason: new node registered with same name]
+Map point vector is empty!
+[rosout-1] process has finished cleanly
+log file: /root/.ros/log/6d8caa84-d3cf-11eb-b25c-02714bc07bf1/rosout-1*.log
+[rosout-1] restarting process
+process[rosout-1]: started with pid [230]
+[ WARN] [1624417361.405671611]: Shutdown request received.
+[ WARN] [1624417361.405730695]: Reason given for shutdown: [[/rosout] Reason: new node registered with same name]
+[rosout-1] process has finished cleanly
+log file: /root/.ros/log/6d8caa84-d3cf-11eb-b25c-02714bc07bf1/rosout-1*.log
+[rosout-1] restarting process
+process[rosout-1]: started with pid [234]
+Map point vector is empty!
+[ WARN] [1624417362.114379809]: Shutdown request received.
+[ WARN] [1624417362.115002176]: Reason given for shutdown: [[/rosout] Reason: new node registered with same name]
+[rosout-1] process has finished cleanly
+log file: /root/.ros/log/6d8caa84-d3cf-11eb-b25c-02714bc07bf1/rosout-1*.log
+[rosout-1] restarting process
+process[rosout-1]: started with pid [240]
+[ WARN] [1624417362.527842969]: Shutdown request received.
+[ WARN] [1624417362.527900260]: Reason given for shutdown: [[/rosout] Reason: new node registered with same name]
+[rosout-1] process has finished cleanly
+log file: /root/.ros/log/6d8caa84-d3cf-11eb-b25c-02714bc07bf1/rosout-1*.log
+[rosout-1] restarting process
+process[rosout-1]: started with pid [244]
+Map point vector is empty!
+[ WARN] [1624417363.062020622]: Shutdown request received.
+[ WARN] [1624417363.062159734]: Reason given for shutdown: [[/rosout] Reason: new node registered with same name]
+[rosout-1] process has finished cleanly
+log file: /root/.ros/log/6d8caa84-d3cf-11eb-b25c-02714bc07bf1/rosout-1*.log
+[rosout-1] restarting process
+process[rosout-1]: started with pid [250]
+[ WARN] [1624417363.338311886]: Shutdown request received.
+[ WARN] [1624417363.338369483]: Reason given for shutdown: [[/rosout] Reason: new node registered with same name]
+[rosout-1] process has finished cleanly
+log file: /root/.ros/log/6d8caa84-d3cf-11eb-b25c-02714bc07bf1/rosout-1*.log
+[rosout-1] restarting process
+process[rosout-1]: started with pid [254]
+[ WARN] [1624417363.924839597]: Shutdown request received.
+[ WARN] [1624417363.924886651]: Reason given for shutdown: [[/rosout] Reason: new node registered with same name]
+Map point vector is empty!
+[rosout-1] process has finished cleanly
+log file: /root/.ros/log/6d8caa84-d3cf-11eb-b25c-02714bc07bf1/rosout-1*.log
+[rosout-1] restarting process
+process[rosout-1]: started with pid [260]
+[ WARN] [1624417364.352650080]: Shutdown request received.
+[ WARN] [1624417364.352720665]: Reason given for shutdown: [[/rosout] Reason: new node registered with same name]
+[rosout-1] process has finished cleanly
+log file: /root/.ros/log/6d8caa84-d3cf-11eb-b25c-02714bc07bf1/rosout-1*.log
+[rosout-1] restarting process
+process[rosout-1]: started with pid [264]
+[ WARN] [1624417364.888084703]: Shutdown request received.
+[ WARN] [1624417364.888121918]: Reason given for shutdown: [[/rosout] Reason: new node registered with same name]
+[ WARN] [1624417364.928217607]: Shutdown request received.
+[ WARN] [1624417364.928250846]: Reason given for shutdown: [[/rosout] Reason: new node registered with same name]
+Map point vector is empty!
+[rosout-1] process has finished cleanly
+log file: /root/.ros/log/6d8caa84-d3cf-11eb-b25c-02714bc07bf1/rosout-1*.log
+[rosout-1] restarting process
+process[rosout-1]: started with pid [268]
+[ WARN] [1624417365.258081660]: Shutdown request received.
+[ WARN] [1624417365.258157173]: Reason given for shutdown: [[/rosout] Reason: new node registered with same name]
+[rosout-1] process has finished cleanly
+log file: /root/.ros/log/6d8caa84-d3cf-11eb-b25c-02714bc07bf1/rosout-1*.log
+[rosout-1] restarting process
+process[rosout-1]: started with pid [272]
+[ WARN] [1624417365.581155626]: Shutdown request received.
+[ WARN] [1624417365.581208850]: Reason given for shutdown: [[/rosout] Reason: new node registered with same name]
+[rosout-1] process has finished cleanly
+log file: /root/.ros/log/6d8caa84-d3cf-11eb-b25c-02714bc07bf1/rosout-1*.log
+[rosout-1] restarting process
+process[rosout-1]: started with pid [276]
+Map point vector is empty!
+[ WARN] [1624417366.038152432]: Shutdown request received.
+[ WARN] [1624417366.038195439]: Reason given for shutdown: [[/rosout] Reason: new node registered with same name]
+[rosout-1] process has finished cleanly
+log file: /root/.ros/log/6d8caa84-d3cf-11eb-b25c-02714bc07bf1/rosout-1*.log
+[rosout-1] restarting process
+process[rosout-1]: started with pid [280]
+[ WARN] [1624417366.756702870]: Shutdown request received.
+[ WARN] [1624417366.756746661]: Reason given for shutdown: [[/rosout] Reason: new node registered with same name]
+[rosout-1] process has finished cleanly
+log file: /root/.ros/log/6d8caa84-d3cf-11eb-b25c-02714bc07bf1/rosout-1*.log
+[rosout-1] restarting process
+process[rosout-1]: started with pid [284]
+Map point vector is empty!
+[ WARN] [1624417367.480385853]: Shutdown request received.
+[ WARN] [1624417367.480427829]: Reason given for shutdown: [[/rosout] Reason: new node registered with same name]
+[rosout-1] process has finished cleanly
+log file: /root/.ros/log/6d8caa84-d3cf-11eb-b25c-02714bc07bf1/rosout-1*.log
+[rosout-1] restarting process
+process[rosout-1]: started with pid [290]
+Map point vector is empty!
+[ WARN] [1624417368.503875324]: Shutdown request received.
+[ WARN] [1624417368.503917931]: Reason given for shutdown: [[/rosout] Reason: new node registered with same name]
+[rosout-1] process has finished cleanly
+log file: /root/.ros/log/6d8caa84-d3cf-11eb-b25c-02714bc07bf1/rosout-1*.log
+[rosout-1] restarting process
+process[rosout-1]: started with pid [296]
+Map point vector is empty!
+[ WARN] [1624417369.306319719]: Shutdown request received.
+[ WARN] [1624417369.306363228]: Reason given for shutdown: [[/rosout] Reason: new node registered with same name]
+[rosout-1] process has finished cleanly
+log file: /root/.ros/log/6d8caa84-d3cf-11eb-b25c-02714bc07bf1/rosout-1*.log
+[rosout-1] restarting process
+process[rosout-1]: started with pid [302]
+^C[roscloud_node1-2] killing on exit
+[ WARN] [1624417369.922059366]: Shutdown request received.
+[ WARN] [1624417369.922104097]: Reason given for shutdown: [[/rosout] Reason: new node registered with same name]
+Map point vector is empty!
+[rosout-1] process has finished cleanly
+log file: /root/.ros/log/6d8caa84-d3cf-11eb-b25c-02714bc07bf1/rosout-1*.log
+[rosout-1] restarting process
+process[rosout-1]: started with pid [308]
+[ WARN] [1624417370.736506078]: Shutdown request received.
+[ WARN] [1624417370.736547379]: Reason given for shutdown: [[/rosout] Reason: new node registered with same name]
+Map point vector is empty!
+[rosout-1] process has finished cleanly
+log file: /root/.ros/log/6d8caa84-d3cf-11eb-b25c-02714bc07bf1/rosout-1*.log
+[rosout-1] restarting process
+process[rosout-1]: started with pid [314]
+[ WARN] [1624417371.353845596]: Shutdown request received.
+[ WARN] [1624417371.353886118]: Reason given for shutdown: [[/rosout] Reason: new node registered with same name]
+[rosout-1] process has finished cleanly
+log file: /root/.ros/log/6d8caa84-d3cf-11eb-b25c-02714bc07bf1/rosout-1*.log
+[rosout-1] restarting process
+process[rosout-1]: started with pid [318]
+[ WARN] [1624417371.969331997]: Shutdown request received.
+[ WARN] [1624417371.969376519]: Reason given for shutdown: [[/rosout] Reason: new node registered with same name]
+Map point vector is empty!
+[rosout-1] process has finished cleanly
+log file: /root/.ros/log/6d8caa84-d3cf-11eb-b25c-02714bc07bf1/rosout-1*.log
+[rosout-1] restarting process
+process[rosout-1]: started with pid [324]
+[ WARN] [1624417372.573923265]: Shutdown request received.
+[ WARN] [1624417372.573983037]: Reason given for shutdown: [[/rosout] Reason: new node registered with same name]
+[rosout-1] process has finished cleanly
+log file: /root/.ros/log/6d8caa84-d3cf-11eb-b25c-02714bc07bf1/rosout-1*.log
+[rosout-1] restarting process
+process[rosout-1]: started with pid [328]
+Map point vector is empty!
+[ WARN] [1624417373.171210099]: Shutdown request received.
+[ WARN] [1624417373.171365597]: Reason given for shutdown: [[/rosout] Reason: new node registered with same name]
+[rosout-1] process has finished cleanly
+log file: /root/.ros/log/6d8caa84-d3cf-11eb-b25c-02714bc07bf1/rosout-1*.log
+[rosout-1] restarting process
+process[rosout-1]: started with pid [334]
+[ WARN] [1624417373.892782552]: Shutdown request received.
+[ WARN] [1624417373.892839915]: Reason given for shutdown: [[/rosout] Reason: new node registered with same name]
+[rosout-1] process has finished cleanly
+log file: /root/.ros/log/6d8caa84-d3cf-11eb-b25c-02714bc07bf1/rosout-1*.log
+[rosout-1] restarting process
+process[rosout-1]: started with pid [340]
+Map point vector is empty!
+[ WARN] [1624417374.502349738]: Shutdown request received.
+[ WARN] [1624417374.502393463]: Reason given for shutdown: [[/rosout] Reason: new node registered with same name]
+[rosout-1] process has finished cleanly
+log file: /root/.ros/log/6d8caa84-d3cf-11eb-b25c-02714bc07bf1/rosout-1*.log
+[rosout-1] restarting process
+process[rosout-1]: started with pid [344]
+Map point vector is empty!
+[ WARN] [1624417375.217732878]: Shutdown request received.
+[ WARN] [1624417375.217774484]: Reason given for shutdown: [[/rosout] Reason: new node registered with same name]
+[rosout-1] process has finished cleanly
+log file: /root/.ros/log/6d8caa84-d3cf-11eb-b25c-02714bc07bf1/rosout-1*.log
+[rosout-1] restarting process
+process[rosout-1]: started with pid [350]
+[ WARN] [1624417375.925550915]: Shutdown request received.
+[ WARN] [1624417375.925595393]: Reason given for shutdown: [[/rosout] Reason: new node registered with same name]
+Map point vector is empty!
+[rosout-1] process has finished cleanly
+log file: /root/.ros/log/6d8caa84-d3cf-11eb-b25c-02714bc07bf1/rosout-1*.log
+[rosout-1] restarting process
+process[rosout-1]: started with pid [356]
+[ WARN] [1624417376.641736756]: Shutdown request received.
+[ WARN] [1624417376.641778244]: Reason given for shutdown: [[/rosout] Reason: new node registered with same name]
+[rosout-1] process has finished cleanly
+log file: /root/.ros/log/6d8caa84-d3cf-11eb-b25c-02714bc07bf1/rosout-1*.log
+[rosout-1] restarting process
+process[rosout-1]: started with pid [360]
+Map point vector is empty!
+[ WARN] [1624417377.154807580]: Shutdown request received.
+[ WARN] [1624417377.154853308]: Reason given for shutdown: [[/rosout] Reason: new node registered with same name]
+[rosout-1] process has finished cleanly
+log file: /root/.ros/log/6d8caa84-d3cf-11eb-b25c-02714bc07bf1/rosout-1*.log
+[rosout-1] restarting process
+process[rosout-1]: started with pid [366]
+[ WARN] [1624417377.653199035]: Shutdown request received.
+[ WARN] [1624417377.653245988]: Reason given for shutdown: [[/rosout] Reason: new node registered with same name]
+[rosout-1] process has finished cleanly
+log file: /root/.ros/log/6d8caa84-d3cf-11eb-b25c-02714bc07bf1/rosout-1*.log
+[rosout-1] restarting process
+process[rosout-1]: started with pid [370]
+[ WARN] [1624417377.972379259]: Shutdown request received.
+[ WARN] [1624417377.972438283]: Reason given for shutdown: [[/rosout] Reason: new node registered with same name]
+Map point vector is empty!
+[rosout-1] process has finished cleanly
+log file: /root/.ros/log/6d8caa84-d3cf-11eb-b25c-02714bc07bf1/rosout-1*.log
+[rosout-1] restarting process
+process[rosout-1]: started with pid [376]
+[ WARN] [1624417378.603480244]: Shutdown request received.
+[ WARN] [1624417378.603523611]: Reason given for shutdown: [[/rosout] Reason: new node registered with same name]
+[rosout-1] process has finished cleanly
+log file: /root/.ros/log/6d8caa84-d3cf-11eb-b25c-02714bc07bf1/rosout-1*.log
+[rosout-1] restarting process
+process[rosout-1]: started with pid [380]
+Map point vector is empty!
+[ WARN] [1624417379.419933621]: Shutdown request received.
+[ WARN] [1624417379.420115419]: Reason given for shutdown: [[/rosout] Reason: new node registered with same name]
+[rosout-1] process has finished cleanly
+log file: /root/.ros/log/6d8caa84-d3cf-11eb-b25c-02714bc07bf1/rosout-1*.log
+[rosout-1] restarting process
+process[rosout-1]: started with pid [386]
+Map point vector is empty!
+[ WARN] [1624417380.123642694]: Shutdown request received.
+[ WARN] [1624417380.123687032]: Reason given for shutdown: [[/rosout] Reason: new node registered with same name]
+[rosout-1] process has finished cleanly
+log file: /root/.ros/log/6d8caa84-d3cf-11eb-b25c-02714bc07bf1/rosout-1*.log
+[rosout-1] restarting process
+process[rosout-1]: started with pid [392]
+[ WARN] [1624417380.664205345]: Shutdown request received.
+[ WARN] [1624417380.664248068]: Reason given for shutdown: [[/rosout] Reason: new node registered with same name]
+[rosout-1] process has finished cleanly
+log file: /root/.ros/log/6d8caa84-d3cf-11eb-b25c-02714bc07bf1/rosout-1*.log
+[rosout-1] restarting process
+process[rosout-1]: started with pid [396]
+Map point vector is empty!
+[ WARN] [1624417381.266074407]: Shutdown request received.
+[ WARN] [1624417381.266132743]: Reason given for shutdown: [[/rosout] Reason: new node registered with same name]
+[rosout-1] process has finished cleanly
+log file: /root/.ros/log/6d8caa84-d3cf-11eb-b25c-02714bc07bf1/rosout-1*.log
+[rosout-1] restarting process
+process[rosout-1]: started with pid [402]
+[ WARN] [1624417381.777157043]: Shutdown request received.
+[ WARN] [1624417381.777198062]: Reason given for shutdown: [[/rosout] Reason: new node registered with same name]
+Map point vector is empty!
+[rosout-1] process has finished cleanly
+log file: /root/.ros/log/6d8caa84-d3cf-11eb-b25c-02714bc07bf1/rosout-1*.log
+[rosout-1] restarting process
+process[rosout-1]: started with pid [408]
+[ WARN] [1624417382.482898936]: Shutdown request received.
+[ WARN] [1624417382.483340250]: Reason given for shutdown: [[/rosout] Reason: new node registered with same name]
+[rosout-1] process has finished cleanly
+log file: /root/.ros/log/6d8caa84-d3cf-11eb-b25c-02714bc07bf1/rosout-1*.log
+[rosout-1] restarting process
+process[rosout-1]: started with pid [412]
+[ WARN] [1624417382.810304738]: Shutdown request received.
+[ WARN] [1624417382.810352956]: Reason given for shutdown: [[/rosout] Reason: new node registered with same name]
+[rosout-1] process has finished cleanly
+log file: /root/.ros/log/6d8caa84-d3cf-11eb-b25c-02714bc07bf1/rosout-1*.log
+[rosout-1] restarting process
+New Map created with 112 points
+process[rosout-1]: started with pid [418]
+[ WARN] [1624417383.103579638]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624417383.106753397]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624417383.198943779]: Shutdown request received.
+[ WARN] [1624417383.198999841]: Reason given for shutdown: [[/rosout] Reason: new node registered with same name]
+[rosout-1] process has finished cleanly
+log file: /root/.ros/log/6d8caa84-d3cf-11eb-b25c-02714bc07bf1/rosout-1*.log
+[rosout-1] restarting process
+process[rosout-1]: started with pid [422]
+[ WARN] [1624417383.814430027]: Shutdown request received.
+[ WARN] [1624417383.814487148]: Reason given for shutdown: [[/rosout] Reason: new node registered with same name]
+[ WARN] [1624417383.943934958]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624417383.944200061]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[rosout-1] process has finished cleanly
+log file: /root/.ros/log/6d8caa84-d3cf-11eb-b25c-02714bc07bf1/rosout-1*.log
+[rosout-1] restarting process
+process[rosout-1]: started with pid [426]
+[ WARN] [1624417384.329738232]: Shutdown request received.
+[ WARN] [1624417384.329782154]: Reason given for shutdown: [[/rosout] Reason: new node registered with same name]
+[rosout-1] process has finished cleanly
+log file: /root/.ros/log/6d8caa84-d3cf-11eb-b25c-02714bc07bf1/rosout-1*.log
+[rosout-1] restarting process
+process[rosout-1]: started with pid [430]
+[roscloud_node1-2] escalating to SIGTERM
+[ WARN] [1624417384.932452409]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624417384.932933886]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624417385.060560724]: Shutdown request received.
+[ WARN] [1624417385.060606950]: Reason given for shutdown: [[/rosout] Reason: new node registered with same name]
+[rosout-1] process has finished cleanly
+log file: /root/.ros/log/6d8caa84-d3cf-11eb-b25c-02714bc07bf1/rosout-1*.log
+[rosout-1] restarting process
+process[rosout-1]: started with pid [434]
+[ WARN] [1624417385.783487167]: Shutdown request received.
+[ WARN] [1624417385.784043190]: Reason given for shutdown: [[/rosout] Reason: new node registered with same name]
+[ WARN] [1624417385.802063558]: Shutdown request received.
+[ WARN] [1624417385.802434905]: Reason given for shutdown: [[/rosout] Reason: new node registered with same name]
+[rosout-1] process has finished cleanly
+log file: /root/.ros/log/6d8caa84-d3cf-11eb-b25c-02714bc07bf1/rosout-1*.log
+[rosout-1] restarting process
+process[rosout-1]: started with pid [438]
+[ WARN] [1624417386.047129877]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624417386.047290847]: "camera_link" passed to lookupTransform argument target_frame does not exist. 
+[ WARN] [1624417386.401338568]: Shutdown request received.
+[ WARN] [1624417386.401885772]: Reason given for shutdown: [[/rosout] Reason: new node registered with same name]
+[rosout-1] process has finished cleanly
+log file: /root/.ros/log/6d8caa84-d3cf-11eb-b25c-02714bc07bf1/rosout-1*.log
+[rosout-1] restarting process
+process[rosout-1]: started with pid [442]
